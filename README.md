@@ -513,6 +513,7 @@ What each skill can do, as described in its `SKILL.md` or the vendor's docs.
 
 ## Related lists and directories
 
+- [Awesome Web Scraping MCP Servers](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers) - Our companion list of MCP servers for scraping.
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) - General list of 1,000+ agent skills.
 - [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - Curated Claude skills across many domains.
 - [lorien/awesome-web-scraping](https://github.com/lorien/awesome-web-scraping) - Scraping libraries, tools and APIs (not agent-specific).

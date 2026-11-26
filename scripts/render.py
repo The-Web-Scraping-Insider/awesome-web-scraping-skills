@@ -183,6 +183,7 @@ def render_readme(skills, vendors, categories, caps, picks, stats):
     w("")
 
     w("## Related lists and directories\n")
+    w("- [Awesome Web Scraping MCP Servers](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers) - Our companion list of MCP servers for scraping.")
     w("- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) - General list of 1,000+ agent skills.")
     w("- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - Curated Claude skills across many domains.")
     w("- [lorien/awesome-web-scraping](https://github.com/lorien/awesome-web-scraping) - Scraping libraries, tools and APIs (not agent-specific).")
