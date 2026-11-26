@@ -1,0 +1,31 @@
+# Capability tags used in skills.yaml. `short` is shown in the README matrix.
+- id: anti-bot
+  short: Anti-bot
+  description: Handles bot detection, CAPTCHAs or WAFs such as Cloudflare
+- id: js-rendering
+  short: JS
+  description: Renders JavaScript-heavy pages
+- id: browser-control
+  short: Browser
+  description: Drives an interactive browser session (clicks, forms, logins)
+- id: crawling
+  short: Crawl
+  description: Crawls multiple pages or whole sites
+- id: structured-extraction
+  short: JSON
+  description: Returns structured data (JSON / schemas), not just page text
+- id: search
+  short: Search
+  description: Web or SERP search
+- id: proxies
+  short: Proxies
+  description: Configures or rotates proxies
+- id: markdown-output
+  short: Markdown
+  description: Returns LLM-ready markdown
+- id: sdk-guides
+  short: SDK
+  description: Teaches the agent a vendor SDK or API for writing code
+- id: open-source
+  short: OSS
+  description: Free and open source; no paid account required

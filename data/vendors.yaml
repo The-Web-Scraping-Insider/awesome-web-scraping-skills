@@ -1,0 +1,91 @@
+# Vendors that publish official web scraping agent skills.
+# `id` is referenced by `vendor:` in skills.yaml.
+
+- id: apify
+  name: Apify
+  site: https://apify.com
+  kind: Scraping platform & Actor marketplace
+- id: bright-data
+  name: Bright Data
+  site: https://brightdata.com
+  kind: Proxies, unblocker & scraping APIs
+- id: browserbase
+  name: Browserbase
+  site: https://www.browserbase.com
+  kind: Cloud browsers
+- id: browser-use
+  name: Browser Use
+  site: https://browser-use.com
+  kind: Open-source browser agent
+- id: crawlbase
+  name: Crawlbase
+  site: https://crawlbase.com
+  kind: Scraping API
+- id: decodo
+  name: Decodo
+  site: https://decodo.com
+  kind: Proxies & scraping APIs
+- id: firecrawl
+  name: Firecrawl
+  site: https://firecrawl.dev
+  kind: Scraping & crawling API
+- id: hasdata
+  name: HasData
+  site: https://hasdata.com
+  kind: Scraping APIs
+- id: microsoft
+  name: Microsoft
+  site: https://playwright.dev
+  kind: Browser automation framework
+- id: olostep
+  name: Olostep
+  site: https://www.olostep.com
+  kind: Scraping & crawling API
+- id: oxylabs
+  name: Oxylabs
+  site: https://oxylabs.io
+  kind: Proxies, unblocker & scraping APIs
+- id: scrapegraphai
+  name: ScrapeGraphAI
+  site: https://scrapegraphai.com
+  kind: AI scraping API
+- id: scraperapi
+  name: ScraperAPI
+  site: https://www.scraperapi.com
+  kind: Scraping API
+- id: scrapeless
+  name: Scrapeless
+  site: https://www.scrapeless.com
+  kind: Scraping browser & APIs
+- id: scrapfly
+  name: Scrapfly
+  site: https://scrapfly.io
+  kind: Scraping API
+- id: scrapling
+  name: Scrapling
+  site: https://github.com/D4Vinci/Scrapling
+  kind: Open-source scraping library
+- id: steel
+  name: Steel
+  site: https://steel.dev
+  kind: Cloud browsers
+- id: tavily
+  name: Tavily
+  site: https://tavily.com
+  kind: Search & extraction API
+- id: vercel
+  name: Vercel Labs
+  site: https://github.com/vercel-labs/agent-browser
+  kind: Browser automation CLI
+- id: xcrawl
+  name: XCrawl
+  site: https://github.com/xcrawl-api
+  kind: Scraping & crawling API
+- id: zenrows
+  name: ZenRows
+  site: https://www.zenrows.com
+  kind: Scraping API
+- id: zyte
+  name: Zyte
+  site: https://www.zyte.com
+  kind: Scraping API & Scrapy
