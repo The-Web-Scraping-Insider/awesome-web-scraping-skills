@@ -7,7 +7,7 @@ Skills for free, self-hosted scraping libraries. No API key needed.
 
 ## Official
 
-- [**scrapling-official**](https://github.com/D4Vinci/Scrapling) by [Scrapling](https://github.com/D4Vinci/Scrapling) - Adaptive scraping framework with stealth fetching, Cloudflare Turnstile handling, spiders and CLI extraction.<br><sub>⭐ 63.7K · 🆓 Free · `Anti-bot` · `JS` · `Crawl`</sub>
+- [**scrapling-official**](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) by [Scrapling](https://github.com/D4Vinci/Scrapling) - Adaptive scraping framework with stealth fetching, Cloudflare Turnstile handling, spiders and CLI extraction.<br><sub>⭐ 63.7K · 🆓 Free · `Anti-bot` · `JS` · `Crawl`</sub>
 
 <details><summary>Install</summary>
 
@@ -20,7 +20,7 @@ npx skills add d4vinci/scrapling --skill scrapling-official
 ## Community
 
 - [**crawl4ai**](https://github.com/brettdavies/crawl4ai-skill) by [@brettdavies](https://github.com/brettdavies) - Wraps the Crawl4AI CLI and Python SDK for JavaScript-heavy sites, reusable CSS extraction schemas and batch crawling.<br><sub>🆓 Free · `JS` · `Crawl` · `JSON`</sub>
-- [**scrapling**](https://github.com/tdimino/claude-code-minoan) by [@tdimino](https://github.com/tdimino) - Local stealth scraping with Scrapling, with stealth and dynamic modes, a Cloudflare solver and CSS-targeted extraction.<br><sub>🆓 Free · `Anti-bot` · `JS`</sub>
+- [**scrapling**](https://github.com/tdimino/claude-code-minoan/tree/main/skills/research/scrapling) by [@tdimino](https://github.com/tdimino) - Local stealth scraping with Scrapling, with stealth and dynamic modes, a Cloudflare solver and CSS-targeted extraction.<br><sub>🆓 Free · `Anti-bot` · `JS`</sub>
 
 <details><summary>Install</summary>
 

@@ -7,19 +7,19 @@ Let the agent drive a real (local or cloud) browser to click, scroll, log in and
 
 ## Official
 
-- [**browser, fetch, functions and more**](https://github.com/browserbase/skills) by [Browserbase](https://www.browserbase.com) - Automate cloud browsers with the browse CLI, fetch pages through the Fetch API, and deploy browser automations as serverless functions.<br><sub>⭐ 1.6K · 🔑 API key · `Browser` · `JS` · `Anti-bot`</sub>
-- [**brd-browser-debug**](https://github.com/brightdata/skills) by [Bright Data](https://brightdata.com) - Debug Scraping Browser sessions, including failures, bandwidth use and CAPTCHAs.<br><sub>⭐ 268 · 🔑 API key · `Browser` · `Anti-bot`</sub>
+- [**browser, fetch, functions and more**](https://github.com/browserbase/skills/tree/main/skills) by [Browserbase](https://www.browserbase.com) - Automate cloud browsers with the browse CLI, fetch pages through the Fetch API, and deploy browser automations as serverless functions.<br><sub>⭐ 1.6K · 🔑 API key · `Browser` · `JS` · `Anti-bot`</sub>
+- [**browser**](https://github.com/brightdata/skills/tree/main/skills/browser) by [Bright Data](https://brightdata.com) - Move Playwright, Puppeteer or Selenium scripts that get blocked locally onto Bright Data's cloud Browser API over CDP.<br><sub>⭐ 268 · 🔑 API key · `Browser` · `Anti-bot` · `Proxies`</sub>
 - [**steel-browser, steel-developer and more**](https://github.com/steel-dev/skills) by [Steel](https://steel.dev) - Live cloud browser sessions for scraping, clicking, filling forms, screenshots and PDFs, plus build and debugging skills.<br><sub>🔑 API key · `Browser` · `JS`</sub>
 - [**scrapeless-scraping-browser**](https://ai.scrapeless.com/en/blog/scrapeless-ai-agent-install) by [Scrapeless](https://www.scrapeless.com) - Drive the Scrapeless anti-detect cloud browser from the agent.<br><sub>🔑 API key · `Browser` · `Anti-bot`</sub>
-- [**agent-browser**](https://github.com/vercel-labs/agent-browser) by [Vercel Labs](https://github.com/vercel-labs/agent-browser) - Fast Rust CLI for browser automation over CDP, using accessibility-tree refs. Includes derive-client, which turns recorded traffic into an API client.<br><sub>🆓 Free · `Browser` · `JS`</sub>
-- [**playwright-cli**](https://github.com/microsoft/playwright-cli) by [Microsoft](https://playwright.dev) - Drive a browser with Playwright CLI commands for navigation, forms, screenshots and data extraction.<br><sub>🆓 Free · `Browser` · `JS`</sub>
+- [**agent-browser**](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) by [Vercel Labs](https://github.com/vercel-labs/agent-browser) - Fast Rust CLI for browser automation over CDP, using accessibility-tree refs. Includes derive-client, which turns recorded traffic into an API client.<br><sub>🆓 Free · `Browser` · `JS`</sub>
+- [**playwright-cli**](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) by [Microsoft](https://playwright.dev) - Drive a browser with Playwright CLI commands for navigation, forms, screenshots and data extraction.<br><sub>🆓 Free · `Browser` · `JS`</sub>
 - [**browser-use skills**](https://docs.browser-use.com/open-source/examples/skills/overview) by [Browser Use](https://browser-use.com) - Skill bundles that teach coding agents to use the Browser Use agent framework.<br><sub>🆓 Free · `Browser`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
 npx skills add browserbase/skills
-npx skills add brightdata/skills --skill brd-browser-debug
+npx skills add brightdata/skills --skill browser
 npx skills add steel-dev/skills
 npm install -g scrapeless-scraping-browser
 npx skills add vercel-labs/agent-browser
@@ -31,16 +31,14 @@ npx skills add https://github.com/browser-use/browser-use
 
 ## Community
 
-- [**browserwing**](https://github.com/browserwing/browserwing) by [@browserwing](https://github.com/browserwing) - Browser commands for agents, exposed through MCP.<br><sub>⭐ 1.3K · 🆓 Free · `Browser`</sub>
-- [**human-browser**](https://github.com/al1enjesus/human-browser) by [@al1enjesus](https://github.com/al1enjesus) - Paid stealth Playwright skill bundled with residential proxies.<br><sub>⭐ 19 · 🔑 API key · `Browser` · `Anti-bot` · `Proxies`</sub>
-- [**playwright-skill**](https://github.com/lackeyjb/playwright-skill) by [@lackeyjb](https://github.com/lackeyjb) - Let Claude write and run Playwright scripts for browser automation and scraping.<br><sub>🆓 Free · `Browser` · `JS`</sub>
-- [**web-scraping**](https://github.com/DNYoussef/context-cascade) by [@DNYoussef](https://github.com/DNYoussef) - Read-only plan-read-transform extraction through Claude in Chrome.<br><sub>🆓 Free · `Browser`</sub>
+- [**browserwing**](https://github.com/browserwing/browserwing/tree/main/skills/browserwing) by [@browserwing](https://github.com/browserwing) - Browser automation CLI with 78 built-in site scripts for turning pages into structured data, plus navigation, forms and screenshots.<br><sub>⭐ 1.3K · 🆓 Free · `Browser` · `JSON`</sub>
+- [**playwright-skill**](https://github.com/lackeyjb/playwright-skill/tree/main/skills/playwright-skill) by [@lackeyjb](https://github.com/lackeyjb) - Let Claude write and run Playwright scripts for browser automation, testing, screenshots and login flows.<br><sub>🆓 Free · `Browser` · `JS`</sub>
+- [**web-scraping**](https://github.com/DNYoussef/context-cascade/tree/main/skills/tooling/web-scraping) by [@DNYoussef](https://github.com/DNYoussef) - Read-only plan-read-transform extraction through Claude in Chrome.<br><sub>🆓 Free · `Browser`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
 see https://github.com/browserwing/browserwing
-see https://github.com/al1enjesus/human-browser
 git clone https://github.com/lackeyjb/playwright-skill ~/.claude/skills/playwright-skill
 npx skills-installer add @DNYoussef/context-cascade/web-scraping
 ```

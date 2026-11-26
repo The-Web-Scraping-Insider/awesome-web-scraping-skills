@@ -7,9 +7,9 @@ Browser automation framework · [https://playwright.dev](https://playwright.dev)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [playwright-cli](https://github.com/microsoft/playwright-cli) | Browser Automation | – | – | 0.0 |
+| [playwright-cli](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) | Browser Automation | – | – | 0.0 |
 
-- [**playwright-cli**](https://github.com/microsoft/playwright-cli) - Drive a browser with Playwright CLI commands for navigation, forms, screenshots and data extraction.<br><sub>🆓 Free · `Browser` · `JS`</sub>
+- [**playwright-cli**](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) - Drive a browser with Playwright CLI commands for navigation, forms, screenshots and data extraction.<br><sub>🆓 Free · `Browser` · `JS`</sub>
 
 <details><summary>Install</summary>
 

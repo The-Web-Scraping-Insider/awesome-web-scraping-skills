@@ -7,9 +7,9 @@ Scraping & crawling API · [https://github.com/xcrawl-api](https://github.com/xc
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [xcrawl-scrape, xcrawl-crawl](https://github.com/xcrawl-api/xcrawl-skills) | Scraping APIs & Unblockers | 451 | 441 | 47.0 |
+| [xcrawl-scrape, xcrawl-crawl](https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills) | Scraping APIs & Unblockers | 451 | 441 | 47.0 |
 
-- [**xcrawl-scrape, xcrawl-crawl**](https://github.com/xcrawl-api/xcrawl-skills) - Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.<br><sub>⭐ 451 · ⬇ 441 · 🔑 API key · `Crawl` · `JSON`</sub>
+- [**xcrawl-scrape, xcrawl-crawl**](https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills) - Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.<br><sub>⭐ 451 · ⬇ 441 · 🔑 API key · `Crawl` · `JSON`</sub>
 
 <details><summary>Install</summary>
 

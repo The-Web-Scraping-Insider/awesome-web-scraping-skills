@@ -7,14 +7,15 @@ Hosted APIs that fetch pages for you and deal with blocks, CAPTCHAs and JavaScri
 
 ## Official
 
-- [**firecrawl-scrape**](https://github.com/firecrawl/cli) by [Firecrawl](https://firecrawl.dev) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 531 · ⬇ 75.6K · 🔑 API key · `JS` · `Markdown`</sub>
-- [**just-scrape**](https://github.com/scrapegraphai/just-scrape) by [ScrapeGraphAI](https://scrapegraphai.com) - Search, scrape, crawl, extract structured data and monitor pages through the ScrapeGraph AI CLI.<br><sub>⭐ 37 · ⬇ 244.9K · 🔑 API key · `Anti-bot` · `JS` · `Crawl` · `JSON` · `Search`</sub>
-- [**scrape**](https://github.com/brightdata/skills) by [Bright Data](https://brightdata.com) - Scrape any page to markdown, HTML or JSON through Web Unlocker, with bot-detection bypass, CAPTCHA solving and JS rendering.<br><sub>⭐ 268 · ⬇ 10.6K · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
-- [**xcrawl-scrape, xcrawl-crawl**](https://github.com/xcrawl-api/xcrawl-skills) by [XCrawl](https://github.com/xcrawl-api) - Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.<br><sub>⭐ 451 · ⬇ 441 · 🔑 API key · `Crawl` · `JSON`</sub>
-- [**scraperapi-* (18 skills)**](https://github.com/scraperapi/scraperapi-skills) by [ScraperAPI](https://www.scraperapi.com) - Claude Code plugin with 18 skills and a hosted MCP server, covering onboarding, SDKs, crawling, scraper building, SERP data and price monitoring.<br><sub>⭐ 10 · 🔑 API key · `Anti-bot` · `Crawl` · `Search` · `SDK`</sub>
+- [**firecrawl-scrape**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) by [Firecrawl](https://firecrawl.dev) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 531 · ⬇ 75.6K · 🔑 API key · `JS` · `Markdown`</sub>
+- [**just-scrape**](https://github.com/scrapegraphai/just-scrape/tree/main/skills/just-scrape) by [ScrapeGraphAI](https://scrapegraphai.com) - Search, scrape, crawl, extract structured data and monitor pages through the ScrapeGraph AI CLI.<br><sub>⭐ 37 · ⬇ 244.9K · 🔑 API key · `Anti-bot` · `JS` · `Crawl` · `JSON` · `Search`</sub>
+- [**scrape**](https://github.com/brightdata/skills/tree/main/skills/scrape) by [Bright Data](https://brightdata.com) - Scrape structured records (profiles, products, reviews, listings) from any site through the Web Scraper API, including building new scrapers in Scraper Studio.<br><sub>⭐ 268 · ⬇ 10.6K · 🔑 API key · `JSON` · `Anti-bot` · `Crawl`</sub>
+- [**xcrawl-scrape, xcrawl-crawl**](https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills) by [XCrawl](https://github.com/xcrawl-api) - Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.<br><sub>⭐ 451 · ⬇ 441 · 🔑 API key · `Crawl` · `JSON`</sub>
+- [**fetch**](https://github.com/brightdata/skills/tree/main/skills/fetch) by [Bright Data](https://brightdata.com) - Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.<br><sub>⭐ 268 · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
+- [**scraperapi-* (18 skills)**](https://github.com/scraperapi/scraperapi-skills/tree/main/plugin/skills) by [ScraperAPI](https://www.scraperapi.com) - Claude Code plugin with 18 skills and a hosted MCP server, covering onboarding, SDKs, crawling, scraper building, SERP data and price monitoring.<br><sub>⭐ 10 · 🔑 API key · `Anti-bot` · `Crawl` · `Search` · `SDK`</sub>
 - [**fetcher, parser, scrapy and more**](https://github.com/zytelabs/claude-webscraping-skills) by [Zyte](https://www.zyte.com) - Fetch HTML through the Zyte API with fallback, generate parsers and selectors with AI, work with Scrapy, and take screenshots.<br><sub>⭐ 5 · 🔑 API key · `Anti-bot` · `JSON` · `SDK`</sub>
-- [**scrapfly-scraper**](https://github.com/scrapfly/skills) by [Scrapfly](https://scrapfly.io) - Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.<br><sub>⭐ 4 · 🔑 API key · `Anti-bot` · `JS` · `Proxies`</sub>
-- [**Web Scraper API skills**](https://github.com/oxylabs/web-api-skills) by [Oxylabs](https://oxylabs.io) - Skills for the Oxylabs Web Scraper API, wired to its MCP server when installed as a Claude Code plugin.<br><sub>🔑 API key · `Anti-bot` · `JSON`</sub>
+- [**scrapfly-scraper**](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) by [Scrapfly](https://scrapfly.io) - Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.<br><sub>⭐ 4 · 🔑 API key · `Anti-bot` · `JS` · `Proxies`</sub>
+- [**Web Scraper API skills**](https://github.com/oxylabs/web-api-skills/tree/main/skills) by [Oxylabs](https://oxylabs.io) - Skills for the Oxylabs Web Scraper API, wired to its MCP server when installed as a Claude Code plugin.<br><sub>🔑 API key · `Anti-bot` · `JSON`</sub>
 - [**zenrows, protected-fetch, extract, interact-browser, cost-control**](https://www.zenrows.com/agents/skills) by [ZenRows](https://www.zenrows.com) - A decision tree for picking the cheapest reliable method, anti-bot fetching, extraction to JSON or markdown, gated browser sessions and cost guardrails.<br><sub>🔑 API key · `Anti-bot` · `JS` · `JSON` · `Browser`</sub>
 - [**@decodo/agent-skills**](https://decodo.com/agent-skills) by [Decodo](https://decodo.com) - Route web data tasks and failed fetches to the Decodo CLI, MCP server or API, returning markdown by default.<br><sub>🔑 API key · `Anti-bot` · `Proxies` · `Markdown`</sub>
 - [**Olostep skills**](https://docs.olostep.com/integrations/clawhub) by [Olostep](https://www.olostep.com) - Six core skills for scraping, crawling and batch jobs, plus a bundled MCP server.<br><sub>🔑 API key · `Crawl` · `JS`</sub>
@@ -26,6 +27,7 @@ npx skills add firecrawl/cli
 npx skills add scrapegraphai/just-scrape
 npx skills add brightdata/skills --skill scrape
 npx skills add xcrawl-api/xcrawl-skills
+npx skills add brightdata/skills --skill fetch
 /plugin marketplace add scraperapi/scraperapi-skills
 git clone https://github.com/zytelabs/claude-webscraping-skills ~/.claude/skills/zyte
 npx skills add scrapfly/skills --skill scrapfly-scraper
@@ -39,7 +41,7 @@ see https://docs.olostep.com/integrations/clawhub
 
 ## Community
 
-- [**firecrawl-automation, scrapingbee-automation, zenrows-automation**](https://github.com/ComposioHQ/awesome-claude-skills) by [@ComposioHQ](https://github.com/ComposioHQ) - Thin wrappers that call scraping APIs through Composio's Rube MCP server.<br><sub>🔑 API key · `Anti-bot`</sub>
+- [**firecrawl-automation, scrapingbee-automation, zenrows-automation**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills) by [@ComposioHQ](https://github.com/ComposioHQ) - Thin wrappers that call scraping APIs through Composio's Rube MCP server.<br><sub>🔑 API key · `Anti-bot`</sub>
 
 <details><summary>Install</summary>
 

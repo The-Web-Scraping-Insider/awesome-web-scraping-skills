@@ -7,17 +7,14 @@ Search & extraction API · [https://tavily.com](https://tavily.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [tavily-crawl](https://github.com/tavily-ai/skills) | Crawling, Search & Extraction | 436 | 9.8K | 58.1 |
-| [tavily-search, extract, research](https://github.com/tavily-ai/skills) | Crawling, Search & Extraction | 436 | – | 24.7 |
+| [tavily-search](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) | Crawling, Search & Extraction | 436 | – | 24.7 |
 
-- [**tavily-crawl**](https://github.com/tavily-ai/skills) - Crawl a site and save each page as local markdown through the Tavily CLI.<br><sub>⭐ 436 · ⬇ 9.8K · 🔑 API key · `Crawl` · `Markdown`</sub>
-- [**tavily-search, extract, research**](https://github.com/tavily-ai/skills) - Web search, URL content extraction, site mapping and cited research.<br><sub>⭐ 436 · 🔑 API key · `Search` · `Markdown`</sub>
+- [**tavily-search**](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) - Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.<br><sub>⭐ 436 · 🔑 API key · `Search` · `Crawl` · `Markdown`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
-npx skills add tavily-ai/skills --skill tavily-crawl
-npx skills add tavily-ai/skills
+npx skills add tavily-ai/skills --skill tavily-search
 ```
 
 </details>

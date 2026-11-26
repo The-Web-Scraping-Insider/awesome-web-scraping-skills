@@ -7,15 +7,13 @@ Ready-made scrapers for popular sites (Amazon, LinkedIn, Google Maps, TikTok…)
 
 ## Official
 
-- [**apify-ultimate-scraper**](https://github.com/apify/agent-skills) by [Apify](https://apify.com) - Pick from 130+ curated Actors for social, search, maps and travel sites, falling back to the 30,000+ Actors in the Apify Store.<br><sub>⭐ 2.4K · 🔑 API key · `JSON` · `Anti-bot`</sub>
-- [**data-feeds**](https://github.com/brightdata/skills) by [Bright Data](https://brightdata.com) - Pull structured data from 40+ sites (Amazon, LinkedIn, TikTok, YouTube and more) using pre-built scrapers.<br><sub>⭐ 268 · 🔑 API key · `JSON` · `Anti-bot`</sub>
-- [**apify-ecommerce, apify-lead-generation and more**](https://github.com/apify/awesome-skills) by [Apify](https://apify.com) - Use-case skills (e-commerce, lead generation, audience analysis, ads intelligence) built on Apify Actors.<br><sub>⭐ 239 · 🔑 API key · `JSON`</sub>
+- [**apify-ultimate-scraper**](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) by [Apify](https://apify.com) - Pick from 130+ curated Actors for social, search, maps and travel sites, falling back to the 30,000+ Actors in the Apify Store.<br><sub>⭐ 2.4K · 🔑 API key · `JSON` · `Anti-bot`</sub>
+- [**apify-ecommerce, apify-lead-generation and more**](https://github.com/apify/awesome-skills/tree/main/skills) by [Apify](https://apify.com) - Use-case skills (e-commerce, lead generation, audience analysis, ads intelligence) built on Apify Actors.<br><sub>⭐ 239 · 🔑 API key · `JSON`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
 npx skills add apify/agent-skills --skill apify-ultimate-scraper
-npx skills add brightdata/skills --skill data-feeds
 npx skills add apify/awesome-skills
 ```
 

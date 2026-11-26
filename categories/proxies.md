@@ -7,13 +7,11 @@ Configure proxy pools, geo-targeting and rotation correctly.
 
 ## Official
 
-- [**brightdata-proxy**](https://github.com/brightdata/skills) by [Bright Data](https://brightdata.com) - Generate code that routes requests through datacenter, ISP, residential and mobile proxies.<br><sub>⭐ 268 · 🔑 API key · `Proxies`</sub>
-- [**proxies, web-unblocker, agent-browser, video-data**](https://github.com/oxylabs/agent-skills) by [Oxylabs](https://oxylabs.io) - Generate correct proxy connection strings and geo-targeting, use Web Unblocker, and drive remote browsers over CDP.<br><sub>🔑 API key · `Proxies` · `Anti-bot` · `Browser`</sub>
+- [**proxies, web-unblocker, web-scraper-api, agent-browser and more**](https://github.com/oxylabs/agent-skills/tree/main/skills) by [Oxylabs](https://oxylabs.io) - Generate correct proxy connection strings and geo-targeting, use Web Unblocker and the Web Scraper API, and drive remote browsers over CDP.<br><sub>🔑 API key · `Proxies` · `Anti-bot` · `Browser`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
-npx skills add brightdata/skills --skill brightdata-proxy
 npx skills add oxylabs/agent-skills
 ```
 
