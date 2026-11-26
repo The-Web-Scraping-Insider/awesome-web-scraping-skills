@@ -1,0 +1,66 @@
+name: Submit a skill
+description: Suggest a web scraping agent skill for the list
+title: "Add skill: "
+labels: ["new skill"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Skills must be about getting data from the web: scraping, crawling, browser automation, proxies or extraction.
+        Vendors are welcome to submit their own skills; they are ranked by the same rules as everyone else.
+  - type: input
+    id: link
+    attributes:
+      label: Link to the skill
+      description: GitHub repo or folder containing the SKILL.md
+      placeholder: https://github.com/owner/repo/tree/main/skills/my-skill
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: One plain sentence. No marketing language, please.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Who publishes it?
+      options:
+        - The company or project behind the tool (official)
+        - An independent developer (community)
+    validations:
+      required: true
+  - type: dropdown
+    id: paid
+    attributes:
+      label: Does it need a paid account or API key?
+      options:
+        - "No"
+        - "Yes"
+        - Free tier available
+    validations:
+      required: true
+  - type: input
+    id: install
+    attributes:
+      label: Install command
+      placeholder: npx skills add owner/repo --skill my-skill
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: The skill has a SKILL.md and works with at least one agent (Claude Code, Cursor, Codex…)
+          required: true
+        - label: It isn't already in the list
+          required: true
