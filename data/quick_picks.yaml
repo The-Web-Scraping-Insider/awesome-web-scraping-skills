@@ -2,18 +2,18 @@
 # Keep this vendor-neutral: list at least one free/open-source option per row
 # where one exists, and never more than three skills per row.
 - need: Get past Cloudflare and other anti-bot systems
-  skills: [scrapling-official, brightdata-scrape, zenrows-skills]
+  skills: [scrapling-official, brightdata-fetch, zenrows-skills]
 - need: Turn any URL into clean markdown for the LLM
   skills: [firecrawl-scrape, scrapegraphai-just-scrape, tavily-search-extract]
 - need: Crawl an entire site
-  skills: [firecrawl-crawl, tavily-crawl, brettdavies-crawl4ai]
+  skills: [firecrawl-crawl, tavily-search-extract, brettdavies-crawl4ai]
 - need: Control a real browser (logins, clicks, infinite scroll)
   skills: [vercel-agent-browser, microsoft-playwright-cli, browserbase-skills]
 - need: Scrape Amazon, LinkedIn, TikTok or Google Maps without writing a scraper
-  skills: [apify-ultimate-scraper, brightdata-data-feeds]
+  skills: [apify-ultimate-scraper, brightdata-scrape]
 - need: Write a production scraper I own and can deploy
-  skills: [brightdata-scraper-builder, apify-actor-development, mindrally-scrapy]
+  skills: [brightdata-scrape, apify-actor-development, mindrally-scrapy]
 - need: Set up proxies correctly
-  skills: [oxylabs-agent-skills, brightdata-proxy]
+  skills: [oxylabs-agent-skills, brightdata-browser]
 - need: Free, no API key
   skills: [scrapling-official, brettdavies-crawl4ai, vercel-agent-browser]

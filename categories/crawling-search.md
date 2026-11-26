@@ -7,18 +7,16 @@ Crawl whole sites, search the web and turn pages into clean markdown or JSON.
 
 ## Official
 
-- [**firecrawl-crawl**](https://github.com/firecrawl/cli) by [Firecrawl](https://firecrawl.dev) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 531 · ⬇ 73.9K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>
-- [**tavily-crawl**](https://github.com/tavily-ai/skills) by [Tavily](https://tavily.com) - Crawl a site and save each page as local markdown through the Tavily CLI.<br><sub>⭐ 436 · ⬇ 9.8K · 🔑 API key · `Crawl` · `Markdown`</sub>
-- [**tavily-search, extract, research**](https://github.com/tavily-ai/skills) by [Tavily](https://tavily.com) - Web search, URL content extraction, site mapping and cited research.<br><sub>⭐ 436 · 🔑 API key · `Search` · `Markdown`</sub>
-- [**search**](https://github.com/brightdata/skills) by [Bright Data](https://brightdata.com) - Run Google searches and get structured JSON results via the SERP API.<br><sub>⭐ 268 · 🔑 API key · `Search` · `JSON`</sub>
-- [**scrapfly-extraction, scrapfly-crawler, scrapfly-browser and more**](https://github.com/scrapfly/skills) by [Scrapfly](https://scrapfly.io) - LLM and template extraction, whole-site crawling, cloud Playwright browsers, plus CLI and TypeScript, Go and Rust SDK skills.<br><sub>⭐ 4 · 🔑 API key · `Crawl` · `JSON` · `Browser` · `SDK`</sub>
+- [**firecrawl-crawl**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) by [Firecrawl](https://firecrawl.dev) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 531 · ⬇ 73.9K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>
+- [**tavily-search**](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) by [Tavily](https://tavily.com) - Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.<br><sub>⭐ 436 · 🔑 API key · `Search` · `Crawl` · `Markdown`</sub>
+- [**search**](https://github.com/brightdata/skills/tree/main/skills/search) by [Bright Data](https://brightdata.com) - Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.<br><sub>⭐ 268 · 🔑 API key · `Search` · `JSON`</sub>
+- [**scrapfly-extraction, scrapfly-crawler, scrapfly-browser and more**](https://github.com/scrapfly/skills/tree/main/skills) by [Scrapfly](https://scrapfly.io) - LLM and template extraction, whole-site crawling, cloud Playwright browsers, plus CLI and TypeScript, Go and Rust SDK skills.<br><sub>⭐ 4 · 🔑 API key · `Crawl` · `JSON` · `Browser` · `SDK`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
 npx skills add firecrawl/cli
-npx skills add tavily-ai/skills --skill tavily-crawl
-npx skills add tavily-ai/skills
+npx skills add tavily-ai/skills --skill tavily-search
 npx skills add brightdata/skills --skill search
 npx skills add scrapfly/skills
 ```
@@ -27,8 +25,8 @@ npx skills add scrapfly/skills
 
 ## Community
 
-- [**web-scraper**](https://github.com/igosuki/claude-skills) by [@igosuki](https://github.com/igosuki) - Recursively crawl pages concurrently and extract clean text for building datasets.<br><sub>⭐ 1† · ⬇ 57 · 🆓 Free · `Crawl`</sub>
-- [**doc-scraper**](https://github.com/jmagly/ai-writing-guide) by [@jmagly](https://github.com/jmagly) - Turn a documentation website into organized reference files, or into a new agent skill.<br><sub>🆓 Free · `Crawl` · `Markdown`</sub>
+- [**web-scraper**](https://github.com/igosuki/claude-skills/tree/main/web-scraper) by [@igosuki](https://github.com/igosuki) - Recursively crawl pages concurrently and extract clean text for building datasets.<br><sub>⭐ 1† · ⬇ 57 · 🆓 Free · `Crawl`</sub>
+- [**doc-scraper**](https://github.com/jmagly/ai-writing-guide/tree/main/agentic/code/addons/doc-intelligence/skills/doc-scraper) by [@jmagly](https://github.com/jmagly) - Turn a documentation website into organized reference files, or into a new agent skill.<br><sub>🆓 Free · `Crawl` · `Markdown`</sub>
 
 <details><summary>Install</summary>
 

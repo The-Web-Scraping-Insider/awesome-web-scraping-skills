@@ -7,13 +7,13 @@ Scraping & crawling API · [https://firecrawl.dev](https://firecrawl.dev)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [firecrawl-scrape](https://github.com/firecrawl/cli) | Scraping APIs & Unblockers | 531 | 75.6K | 66.3 |
-| [firecrawl-crawl](https://github.com/firecrawl/cli) | Crawling, Search & Extraction | 531 | 73.9K | 66.2 |
-| [firecrawl-build-*](https://github.com/firecrawl/skills) | Scraper Building & SDKs | 47 | 55.6K | 55.4 |
+| [firecrawl-scrape](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) | Scraping APIs & Unblockers | 531 | 75.6K | 66.3 |
+| [firecrawl-crawl](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) | Crawling, Search & Extraction | 531 | 73.9K | 66.2 |
+| [firecrawl-build-*](https://github.com/firecrawl/skills/tree/main/skills/build) | Scraper Building & SDKs | 47 | 55.6K | 55.4 |
 
-- [**firecrawl-scrape**](https://github.com/firecrawl/cli) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 531 · ⬇ 75.6K · 🔑 API key · `JS` · `Markdown`</sub>
-- [**firecrawl-crawl**](https://github.com/firecrawl/cli) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 531 · ⬇ 73.9K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>
-- [**firecrawl-build-***](https://github.com/firecrawl/skills) - Integrate Firecrawl's scrape, crawl and interact endpoints into application code, plus end-to-end workflow recipes.<br><sub>⭐ 47 · ⬇ 55.6K · 🔑 API key · `SDK` · `JS`</sub>
+- [**firecrawl-scrape**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 531 · ⬇ 75.6K · 🔑 API key · `JS` · `Markdown`</sub>
+- [**firecrawl-crawl**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 531 · ⬇ 73.9K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>
+- [**firecrawl-build-***](https://github.com/firecrawl/skills/tree/main/skills/build) - Integrate Firecrawl's scrape, crawl and interact endpoints into application code, plus end-to-end workflow recipes.<br><sub>⭐ 47 · ⬇ 55.6K · 🔑 API key · `SDK` · `JS`</sub>
 
 <details><summary>Install</summary>
 

@@ -7,29 +7,23 @@ Proxies, unblocker & scraping APIs · [https://brightdata.com](https://brightdat
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [scrape](https://github.com/brightdata/skills) | Scraping APIs & Unblockers | 268 | 10.6K | 56.4 |
-| [search](https://github.com/brightdata/skills) | Crawling, Search & Extraction | 268 | – | 22.8 |
-| [data-feeds](https://github.com/brightdata/skills) | Pre-built Scrapers & Data Feeds | 268 | – | 22.8 |
-| [scraper-builder](https://github.com/brightdata/skills) | Scraper Building & SDKs | 268 | – | 22.8 |
-| [brightdata-proxy](https://github.com/brightdata/skills) | Proxies | 268 | – | 22.8 |
-| [brd-browser-debug](https://github.com/brightdata/skills) | Browser Automation | 268 | – | 22.8 |
+| [scrape](https://github.com/brightdata/skills/tree/main/skills/scrape) | Scraping APIs & Unblockers | 268 | 10.6K | 56.4 |
+| [fetch](https://github.com/brightdata/skills/tree/main/skills/fetch) | Scraping APIs & Unblockers | 268 | – | 22.8 |
+| [search](https://github.com/brightdata/skills/tree/main/skills/search) | Crawling, Search & Extraction | 268 | – | 22.8 |
+| [browser](https://github.com/brightdata/skills/tree/main/skills/browser) | Browser Automation | 268 | – | 22.8 |
 
-- [**scrape**](https://github.com/brightdata/skills) - Scrape any page to markdown, HTML or JSON through Web Unlocker, with bot-detection bypass, CAPTCHA solving and JS rendering.<br><sub>⭐ 268 · ⬇ 10.6K · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
-- [**search**](https://github.com/brightdata/skills) - Run Google searches and get structured JSON results via the SERP API.<br><sub>⭐ 268 · 🔑 API key · `Search` · `JSON`</sub>
-- [**data-feeds**](https://github.com/brightdata/skills) - Pull structured data from 40+ sites (Amazon, LinkedIn, TikTok, YouTube and more) using pre-built scrapers.<br><sub>⭐ 268 · 🔑 API key · `JSON` · `Anti-bot`</sub>
-- [**scraper-builder**](https://github.com/brightdata/skills) - Walk through building a production scraper for any site, from site analysis to a finished script.<br><sub>⭐ 268 · 🔑 API key · `Anti-bot` · `JSON`</sub>
-- [**brightdata-proxy**](https://github.com/brightdata/skills) - Generate code that routes requests through datacenter, ISP, residential and mobile proxies.<br><sub>⭐ 268 · 🔑 API key · `Proxies`</sub>
-- [**brd-browser-debug**](https://github.com/brightdata/skills) - Debug Scraping Browser sessions, including failures, bandwidth use and CAPTCHAs.<br><sub>⭐ 268 · 🔑 API key · `Browser` · `Anti-bot`</sub>
+- [**scrape**](https://github.com/brightdata/skills/tree/main/skills/scrape) - Scrape structured records (profiles, products, reviews, listings) from any site through the Web Scraper API, including building new scrapers in Scraper Studio.<br><sub>⭐ 268 · ⬇ 10.6K · 🔑 API key · `JSON` · `Anti-bot` · `Crawl`</sub>
+- [**fetch**](https://github.com/brightdata/skills/tree/main/skills/fetch) - Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.<br><sub>⭐ 268 · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
+- [**search**](https://github.com/brightdata/skills/tree/main/skills/search) - Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.<br><sub>⭐ 268 · 🔑 API key · `Search` · `JSON`</sub>
+- [**browser**](https://github.com/brightdata/skills/tree/main/skills/browser) - Move Playwright, Puppeteer or Selenium scripts that get blocked locally onto Bright Data's cloud Browser API over CDP.<br><sub>⭐ 268 · 🔑 API key · `Browser` · `Anti-bot` · `Proxies`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
 npx skills add brightdata/skills --skill scrape
+npx skills add brightdata/skills --skill fetch
 npx skills add brightdata/skills --skill search
-npx skills add brightdata/skills --skill data-feeds
-npx skills add brightdata/skills --skill scraper-builder
-npx skills add brightdata/skills --skill brightdata-proxy
-npx skills add brightdata/skills --skill brd-browser-debug
+npx skills add brightdata/skills --skill browser
 ```
 
 </details>

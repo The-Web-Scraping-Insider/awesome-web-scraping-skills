@@ -29,6 +29,7 @@
   type: official-vendor
   category: scraping-apis
   repo: scrapegraphai/just-scrape
+  url: https://github.com/scrapegraphai/just-scrape/tree/main/skills/just-scrape
   description: Search, scrape, crawl, extract structured data and monitor pages through the ScrapeGraph AI CLI.
   paid_api: true
   capabilities: [anti-bot, js-rendering, crawling, structured-extraction, search]
@@ -42,6 +43,7 @@
   type: official-vendor
   category: scraping-apis
   repo: firecrawl/cli
+  url: https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape
   description: Turn any URL, including JavaScript-rendered pages, into clean markdown.
   paid_api: true
   capabilities: [js-rendering, markdown-output]
@@ -55,6 +57,7 @@
   type: official-vendor
   category: crawling-search
   repo: firecrawl/cli
+  url: https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl
   description: Bulk-extract content from a whole website or one section of it.
   paid_api: true
   capabilities: [crawling, js-rendering, markdown-output]
@@ -68,6 +71,7 @@
   type: official-vendor
   category: scraper-building
   repo: firecrawl/skills
+  url: https://github.com/firecrawl/skills/tree/main/skills/build
   description: Integrate Firecrawl's scrape, crawl and interact endpoints into application code, plus end-to-end workflow recipes.
   paid_api: true
   capabilities: [sdk-guides, js-rendering]
@@ -81,11 +85,26 @@
   type: official-vendor
   category: scraping-apis
   repo: brightdata/skills
-  description: Scrape any page to markdown, HTML or JSON through Web Unlocker, with bot-detection bypass, CAPTCHA solving and JS rendering.
+  url: https://github.com/brightdata/skills/tree/main/skills/scrape
+  description: Scrape structured records (profiles, products, reviews, listings) from any site through the Web Scraper API, including building new scrapers in Scraper Studio.
   paid_api: true
-  capabilities: [anti-bot, js-rendering, markdown-output]
+  capabilities: [structured-extraction, anti-bot, crawling]
   install: npx skills add brightdata/skills --skill scrape
   skills_sh: brightdata/skills/scrape
+  added: 2026-11-26
+
+- id: brightdata-fetch
+  name: fetch
+  vendor: bright-data
+  type: official-vendor
+  category: scraping-apis
+  repo: brightdata/skills
+  url: https://github.com/brightdata/skills/tree/main/skills/fetch
+  description: Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.
+  paid_api: true
+  capabilities: [anti-bot, js-rendering, markdown-output]
+  install: npx skills add brightdata/skills --skill fetch
+  skills_sh: brightdata/skills/fetch
   added: 2026-11-26
 
 - id: brightdata-search
@@ -94,61 +113,25 @@
   type: official-vendor
   category: crawling-search
   repo: brightdata/skills
-  description: Run Google searches and get structured JSON results via the SERP API.
+  url: https://github.com/brightdata/skills/tree/main/skills/search
+  description: Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.
   paid_api: true
   capabilities: [search, structured-extraction]
   install: npx skills add brightdata/skills --skill search
   skills_sh: brightdata/skills/search
   added: 2026-11-26
 
-- id: brightdata-data-feeds
-  name: data-feeds
-  vendor: bright-data
-  type: official-vendor
-  category: pre-built-scrapers
-  repo: brightdata/skills
-  description: Pull structured data from 40+ sites (Amazon, LinkedIn, TikTok, YouTube and more) using pre-built scrapers.
-  paid_api: true
-  capabilities: [structured-extraction, anti-bot]
-  install: npx skills add brightdata/skills --skill data-feeds
-  skills_sh: brightdata/skills/data-feeds
-  added: 2026-11-26
-
-- id: brightdata-scraper-builder
-  name: scraper-builder
-  vendor: bright-data
-  type: official-vendor
-  category: scraper-building
-  repo: brightdata/skills
-  description: Walk through building a production scraper for any site, from site analysis to a finished script.
-  paid_api: true
-  capabilities: [anti-bot, structured-extraction]
-  install: npx skills add brightdata/skills --skill scraper-builder
-  skills_sh: brightdata/skills/scraper-builder
-  added: 2026-11-26
-
-- id: brightdata-proxy
-  name: brightdata-proxy
-  vendor: bright-data
-  type: official-vendor
-  category: proxies
-  repo: brightdata/skills
-  description: Generate code that routes requests through datacenter, ISP, residential and mobile proxies.
-  paid_api: true
-  capabilities: [proxies]
-  install: npx skills add brightdata/skills --skill brightdata-proxy
-  added: 2026-11-26
-
-- id: brightdata-browser-debug
-  name: brd-browser-debug
+- id: brightdata-browser
+  name: browser
   vendor: bright-data
   type: official-vendor
   category: browser-automation
   repo: brightdata/skills
-  description: Debug Scraping Browser sessions, including failures, bandwidth use and CAPTCHAs.
+  url: https://github.com/brightdata/skills/tree/main/skills/browser
+  description: Move Playwright, Puppeteer or Selenium scripts that get blocked locally onto Bright Data's cloud Browser API over CDP.
   paid_api: true
-  capabilities: [browser-control, anti-bot]
-  install: npx skills add brightdata/skills --skill brd-browser-debug
+  capabilities: [browser-control, anti-bot, proxies]
+  install: npx skills add brightdata/skills --skill browser
   added: 2026-11-26
 
 - id: apify-ultimate-scraper
@@ -157,6 +140,7 @@
   type: official-vendor
   category: pre-built-scrapers
   repo: apify/agent-skills
+  url: https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper
   description: Pick from 130+ curated Actors for social, search, maps and travel sites, falling back to the 30,000+ Actors in the Apify Store.
   paid_api: true
   capabilities: [structured-extraction, anti-bot]
@@ -170,6 +154,7 @@
   type: official-vendor
   category: scraper-building
   repo: apify/agent-skills
+  url: https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development
   description: Build, debug and deploy Apify Actors in JavaScript, TypeScript or Python, including input and output schemas.
   paid_api: true
   capabilities: [sdk-guides]
@@ -183,6 +168,7 @@
   type: official-vendor
   category: scraper-building
   repo: apify/agent-skills
+  url: https://github.com/apify/agent-skills/tree/main/skills/apify-actorization
   description: Convert existing scraper code into an Apify Actor.
   paid_api: true
   capabilities: [sdk-guides]
@@ -195,6 +181,7 @@
   type: official-vendor
   category: pre-built-scrapers
   repo: apify/awesome-skills
+  url: https://github.com/apify/awesome-skills/tree/main/skills
   description: Use-case skills (e-commerce, lead generation, audience analysis, ads intelligence) built on Apify Actors.
   paid_api: true
   capabilities: [structured-extraction]
@@ -219,6 +206,7 @@
   type: official-vendor
   category: scraping-apis
   repo: scrapfly/skills
+  url: https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper
   description: Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.
   paid_api: true
   capabilities: [anti-bot, js-rendering, proxies]
@@ -232,6 +220,7 @@
   type: official-vendor
   category: crawling-search
   repo: scrapfly/skills
+  url: https://github.com/scrapfly/skills/tree/main/skills
   description: LLM and template extraction, whole-site crawling, cloud Playwright browsers, plus CLI and TypeScript, Go and Rust SDK skills.
   paid_api: true
   capabilities: [crawling, structured-extraction, browser-control, sdk-guides]
@@ -239,12 +228,13 @@
   added: 2026-11-26
 
 - id: oxylabs-agent-skills
-  name: proxies, web-unblocker, agent-browser, video-data
+  name: proxies, web-unblocker, web-scraper-api, agent-browser and more
   vendor: oxylabs
   type: official-vendor
   category: proxies
   repo: oxylabs/agent-skills
-  description: Generate correct proxy connection strings and geo-targeting, use Web Unblocker, and drive remote browsers over CDP.
+  url: https://github.com/oxylabs/agent-skills/tree/main/skills
+  description: Generate correct proxy connection strings and geo-targeting, use Web Unblocker and the Web Scraper API, and drive remote browsers over CDP.
   paid_api: true
   capabilities: [proxies, anti-bot, browser-control]
   install: npx skills add oxylabs/agent-skills
@@ -256,6 +246,7 @@
   type: official-vendor
   category: scraping-apis
   repo: oxylabs/web-api-skills
+  url: https://github.com/oxylabs/web-api-skills/tree/main/skills
   description: Skills for the Oxylabs Web Scraper API, wired to its MCP server when installed as a Claude Code plugin.
   paid_api: true
   capabilities: [anti-bot, structured-extraction]
@@ -281,6 +272,7 @@
   type: official-vendor
   category: scraping-apis
   repo: scraperapi/scraperapi-skills
+  url: https://github.com/scraperapi/scraperapi-skills/tree/main/plugin/skills
   description: Claude Code plugin with 18 skills and a hosted MCP server, covering onboarding, SDKs, crawling, scraper building, SERP data and price monitoring.
   paid_api: true
   capabilities: [anti-bot, crawling, search, sdk-guides]
@@ -313,29 +305,17 @@
   install: npx skills add hasdata/agent-skills
   added: 2026-11-26
 
-- id: tavily-crawl
-  name: tavily-crawl
-  vendor: tavily
-  type: official-vendor
-  category: crawling-search
-  repo: tavily-ai/skills
-  description: Crawl a site and save each page as local markdown through the Tavily CLI.
-  paid_api: true
-  capabilities: [crawling, markdown-output]
-  install: npx skills add tavily-ai/skills --skill tavily-crawl
-  skills_sh: tavily-ai/skills/tavily-crawl
-  added: 2026-11-26
-
 - id: tavily-search-extract
-  name: tavily-search, extract, research
+  name: tavily-search
   vendor: tavily
   type: official-vendor
   category: crawling-search
   repo: tavily-ai/skills
-  description: Web search, URL content extraction, site mapping and cited research.
+  url: https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search
+  description: Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.
   paid_api: true
-  capabilities: [search, markdown-output]
-  install: npx skills add tavily-ai/skills
+  capabilities: [search, crawling, markdown-output]
+  install: npx skills add tavily-ai/skills --skill tavily-search
   skills_sh: tavily-ai/skills/tavily-search
   added: 2026-11-26
 
@@ -345,6 +325,7 @@
   type: official-vendor
   category: scraping-apis
   repo: xcrawl-api/xcrawl-skills
+  url: https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills
   description: Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.
   paid_api: true
   capabilities: [crawling, structured-extraction]
@@ -370,6 +351,7 @@
   type: official-vendor
   category: browser-automation
   repo: browserbase/skills
+  url: https://github.com/browserbase/skills/tree/main/skills
   description: Automate cloud browsers with the browse CLI, fetch pages through the Fetch API, and deploy browser automations as serverless functions.
   paid_api: true
   capabilities: [browser-control, js-rendering, anti-bot]
@@ -412,6 +394,7 @@
   type: official-tool
   category: browser-automation
   repo: vercel-labs/agent-browser
+  url: https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser
   description: Fast Rust CLI for browser automation over CDP, using accessibility-tree refs. Includes derive-client, which turns recorded traffic into an API client.
   paid_api: false
   capabilities: [browser-control, js-rendering, open-source]
@@ -425,6 +408,7 @@
   type: official-tool
   category: browser-automation
   repo: microsoft/playwright-cli
+  url: https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli
   description: Drive a browser with Playwright CLI commands for navigation, forms, screenshots and data extraction.
   paid_api: false
   capabilities: [browser-control, js-rendering, open-source]
@@ -451,6 +435,7 @@
   type: official-tool
   category: open-source
   repo: D4Vinci/Scrapling
+  url: https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill
   description: Adaptive scraping framework with stealth fetching, Cloudflare Turnstile handling, spiders and CLI extraction.
   paid_api: false
   capabilities: [anti-bot, js-rendering, crawling, open-source]
@@ -480,6 +465,7 @@
   type: community
   category: open-source
   repo: tdimino/claude-code-minoan
+  url: https://github.com/tdimino/claude-code-minoan/tree/main/skills/research/scrapling
   catalog: true
   description: Local stealth scraping with Scrapling, with stealth and dynamic modes, a Cloudflare solver and CSS-targeted extraction.
   paid_api: false
@@ -494,8 +480,9 @@
   type: community
   category: guides
   repo: jamditis/claude-skills-journalism
+  url: https://github.com/jamditis/claude-skills-journalism/tree/master/dev-toolkit/skills/web-scraping
   catalog: true
-  description: Authorized extraction with trust-boundary controls, fallback cascades, poison-pill detection, browser rendering and social-media archiving.
+  description: Authorized scraping with fallback cascades for 403s, CAPTCHAs and blocks, plus social-media and yt-dlp extraction.
   paid_api: false
   capabilities: [js-rendering, open-source]
   install: npx skills add jamditis/claude-skills-journalism --skill web-scraping
@@ -508,6 +495,7 @@
   type: community
   category: guides
   repo: mindrally/skills
+  url: https://github.com/mindrally/skills/tree/main/web-scraping
   catalog: true
   description: A guide to Python scraping covering static, dynamic and large-scale extraction, with an ethics section.
   paid_api: false
@@ -522,6 +510,7 @@
   type: community
   category: guides
   repo: mindrally/skills
+  url: https://github.com/mindrally/skills/tree/main/scrapy-web-scraping
   catalog: true
   description: Build Scrapy spiders, extraction logic and item pipelines.
   paid_api: false
@@ -536,26 +525,13 @@
   type: community
   category: guides
   repo: starchild-ai-agent/official-skills
+  url: https://github.com/starchild-ai-agent/official-skills/tree/main/web-crawler
   catalog: true
-  description: Scrape web pages and social platforms, with a fallback for JavaScript-heavy or bot-protected pages.
-  paid_api: false
-  capabilities: [js-rendering, anti-bot]
+  description: Scrape web pages and social platforms (YouTube, TikTok, Instagram, LinkedIn, Chinese apps and Asian marketplaces) through Apify Actors, with a fallback for JavaScript-heavy pages.
+  paid_api: true
+  capabilities: [js-rendering, structured-extraction]
   install: npx skills add starchild-ai-agent/official-skills --skill web-crawler
   skills_sh: starchild-ai-agent/official-skills/web-crawler
-  added: 2026-11-26
-
-- id: gooseworks-web-scraping
-  name: web-scraping
-  author: gooseworks-ai
-  type: community
-  category: guides
-  repo: gooseworks-ai/goose-skills
-  catalog: true
-  description: General-purpose scraping and extraction built on the Olostep API.
-  paid_api: true
-  capabilities: [crawling, js-rendering]
-  install: npx skills add gooseworks-ai/goose-skills --skill web-scraping
-  skills_sh: gooseworks-ai/goose-skills/web-scraping
   added: 2026-11-26
 
 - id: sickn33-web-scraper
@@ -564,6 +540,7 @@
   type: community
   category: guides
   repo: sickn33/agentic-awesome-skills
+  url: https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/web-scraper
   catalog: true
   description: Multi-strategy scraper for tables, lists and prices, with pagination, monitoring and CSV/JSON export (instructions in Portuguese).
   paid_api: false
@@ -578,6 +555,7 @@
   type: community
   category: guides
   repo: aAAaqwq/AGI-Super-Team
+  url: https://github.com/aAAaqwq/AGI-Super-Team/tree/main/skills/web-scraping-automation
   catalog: true
   description: Scrape websites and APIs and generate scraper scripts, covering anti-bot tactics and storage (instructions in Chinese).
   paid_api: false
@@ -591,6 +569,7 @@
   type: community
   category: crawling-search
   repo: igosuki/claude-skills
+  url: https://github.com/igosuki/claude-skills/tree/main/web-scraper
   catalog: true
   description: Recursively crawl pages concurrently and extract clean text for building datasets.
   paid_api: false
@@ -604,7 +583,8 @@
   type: community
   category: browser-automation
   repo: lackeyjb/playwright-skill
-  description: Let Claude write and run Playwright scripts for browser automation and scraping.
+  url: https://github.com/lackeyjb/playwright-skill/tree/main/skills/playwright-skill
+  description: Let Claude write and run Playwright scripts for browser automation, testing, screenshots and login flows.
   paid_api: false
   capabilities: [browser-control, js-rendering, open-source]
   install: git clone https://github.com/lackeyjb/playwright-skill ~/.claude/skills/playwright-skill
@@ -616,6 +596,7 @@
   type: community
   category: browser-automation
   repo: DNYoussef/context-cascade
+  url: https://github.com/DNYoussef/context-cascade/tree/main/skills/tooling/web-scraping
   catalog: true
   description: Read-only plan-read-transform extraction through Claude in Chrome.
   paid_api: false
@@ -629,22 +610,11 @@
   type: community
   category: browser-automation
   repo: browserwing/browserwing
-  description: Browser commands for agents, exposed through MCP.
+  url: https://github.com/browserwing/browserwing/tree/main/skills/browserwing
+  description: Browser automation CLI with 78 built-in site scripts for turning pages into structured data, plus navigation, forms and screenshots.
   paid_api: false
-  capabilities: [browser-control, open-source]
+  capabilities: [browser-control, structured-extraction, open-source]
   install: see https://github.com/browserwing/browserwing
-  added: 2026-11-26
-
-- id: human-browser
-  name: human-browser
-  author: al1enjesus
-  type: community
-  category: browser-automation
-  repo: al1enjesus/human-browser
-  description: Paid stealth Playwright skill bundled with residential proxies.
-  paid_api: true
-  capabilities: [browser-control, anti-bot, proxies]
-  install: see https://github.com/al1enjesus/human-browser
   added: 2026-11-26
 
 - id: jmagly-doc-scraper
@@ -653,6 +623,7 @@
   type: community
   category: crawling-search
   repo: jmagly/ai-writing-guide
+  url: https://github.com/jmagly/ai-writing-guide/tree/main/agentic/code/addons/doc-intelligence/skills/doc-scraper
   catalog: true
   description: Turn a documentation website into organized reference files, or into a new agent skill.
   paid_api: false
@@ -666,6 +637,7 @@
   type: community
   category: platform-specific
   repo: mvanhorn/printing-press-library
+  url: https://github.com/mvanhorn/printing-press-library/tree/main/cli-skills/pp-scrape-creators
   catalog: true
   description: Query Scrape Creators endpoints across 28 social platforms, with a local store for cross-platform queries.
   paid_api: true
@@ -675,28 +647,17 @@
   added: 2026-11-26
 
 - id: redfox-china-social
-  name: xiaohongshu-crawler, douyin-works-crawler, gzh-search-crawler
+  name: xiaohongshu-crawler, douyin-works-crawler, wechat-channels-crawler
   author: redfox-data
   type: community
   category: platform-specific
   repo: redfox-data/redfox-community
+  url: https://github.com/redfox-data/redfox-community/tree/main/skills
   catalog: true
-  description: Crawl Xiaohongshu, Douyin and WeChat official-account content, with CSV and HTML export (instructions in Chinese).
-  paid_api: false
-  capabilities: [structured-extraction, open-source]
-  install: npx skills add redfox-data/redfox-community
-  added: 2026-11-26
-
-- id: liangdabiao-amazon
-  name: amazon-sorftime-research
-  author: liangdabiao
-  type: community
-  category: platform-specific
-  repo: liangdabiao/amazon-sorftime-research-MCP-skill
-  description: Amazon product research and review analysis through an MCP server plus skill.
+  description: Crawl Xiaohongshu, Douyin and WeChat Channels content through the credit-based Redfox API (instructions in Chinese).
   paid_api: true
   capabilities: [structured-extraction]
-  install: see https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill
+  install: npx skills add redfox-data/redfox-community
   added: 2026-11-26
 
 - id: pleaseprompto-google-ai-mode
@@ -705,7 +666,7 @@
   type: community
   category: platform-specific
   repo: PleasePrompto/google-ai-mode-skill
-  description: Get answers from Google's AI Mode results.
+  description: Query Google AI Mode through a stealth browser and return the answer as markdown with source citations.
   paid_api: false
   capabilities: [search, browser-control, open-source]
   install: see https://github.com/PleasePrompto/google-ai-mode-skill
@@ -717,6 +678,7 @@
   type: community
   category: scraping-apis
   repo: ComposioHQ/awesome-claude-skills
+  url: https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills
   catalog: true
   description: Thin wrappers that call scraping APIs through Composio's Rube MCP server.
   paid_api: true
