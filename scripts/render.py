@@ -116,14 +116,24 @@ def render_readme(skills, vendors, categories, caps, picks, stats):
     w("```bash\n# Most skills install with the open skills CLI\nnpx skills add <owner/repo>\n# Claude Code plugins\n/plugin marketplace add <owner/repo>\n```\n")
 
     w("## Top 10\n")
-    w("Ranked by score (stars, installs and recent activity; see [how the ranking works](#how-the-ranking-works)).\n")
-    w("| # | Skill | Publisher | Type | ⭐ Stars | ⬇ Installs | Score |")
-    w("|---:|---|---|---|---:|---:|---:|")
-    for i, s in enumerate(ranked[:10], 1):
-        typ = "Official" if s["type"] != "community" else "Community"
-        star = fmt_num(s["stars"]) + ("†" if s.get("catalog") and s["stars"] is not None else "")
-        w(f"| {i} | [{s['name']}]({skill_url(s)}) | {publisher(s, vendors)} | {typ} | {star} | {fmt_num(s['installs'])} | {s['score']} |")
-    w("\n<sub>† Stars belong to a multi-purpose collection repo, so they count for less in the score.</sub>\n")
+    w("Ranked by score (stars, installs and recent activity; see [how the ranking works](#how-the-ranking-works)). "
+      "**Vendor** skills come from companies selling a scraping product; **open source** skills come from the authors of a free tool or library; **community** skills come from independent developers.\n")
+    type_label = {"official-vendor": "Vendor", "official-tool": "Open source", "community": "Community"}
+
+    def top_table(title, items, show_type=True):
+        w(f"### {title}\n")
+        w("| # | Skill | Publisher |" + (" Type |" if show_type else "") + " ⭐ Stars | ⬇ Installs | Score |")
+        w("|---:|---|---|" + ("---|" if show_type else "") + "---:|---:|---:|")
+        for i, s in enumerate(items[:10], 1):
+            star = fmt_num(s["stars"]) + ("†" if s.get("catalog") and s["stars"] is not None else "")
+            typ = f" {type_label[s['type']]} |" if show_type else ""
+            w(f"| {i} | [{s['name']}]({skill_url(s)}) | {publisher(s, vendors)} |{typ} {star} | {fmt_num(s['installs'])} | {s['score']} |")
+        w("")
+
+    top_table("🏆 Overall", ranked)
+    top_table("🏢 From vendors", [s for s in ranked if s["type"] == "official-vendor"], show_type=False)
+    top_table("👥 Open source & community", [s for s in ranked if s["type"] != "official-vendor"])
+    w("<sub>† Stars belong to a multi-purpose collection repo, so they count for less in the score.</sub>\n")
 
     w("## Quick picks\n")
     w("| I need to… | Try |")

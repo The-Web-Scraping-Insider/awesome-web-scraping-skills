@@ -37,20 +37,52 @@ npx skills add <owner/repo>
 
 ## Top 10
 
-Ranked by score (stars, installs and recent activity; see [how the ranking works](#how-the-ranking-works)).
+Ranked by score (stars, installs and recent activity; see [how the ranking works](#how-the-ranking-works)). **Vendor** skills come from companies selling a scraping product; **open source** skills come from the authors of a free tool or library; **community** skills come from independent developers.
+
+### 🏆 Overall
 
 | # | Skill | Publisher | Type | ⭐ Stars | ⬇ Installs | Score |
 |---:|---|---|---|---:|---:|---:|
-| 1 | [firecrawl-scrape](https://github.com/firecrawl/cli) | Firecrawl | Official | 531 | 75.6K | 66.3 |
-| 2 | [firecrawl-crawl](https://github.com/firecrawl/cli) | Firecrawl | Official | 531 | 73.9K | 66.2 |
-| 3 | [just-scrape](https://github.com/scrapegraphai/just-scrape) | ScrapeGraphAI | Official | 37 | 244.9K | 59.8 |
-| 4 | [tavily-crawl](https://github.com/tavily-ai/skills) | Tavily | Official | 436 | 9.8K | 58.1 |
-| 5 | [scrape](https://github.com/brightdata/skills) | Bright Data | Official | 268 | 10.6K | 56.4 |
-| 6 | [firecrawl-build-*](https://github.com/firecrawl/skills) | Firecrawl | Official | 47 | 55.6K | 55.4 |
+| 1 | [firecrawl-scrape](https://github.com/firecrawl/cli) | Firecrawl | Vendor | 531 | 75.6K | 66.3 |
+| 2 | [firecrawl-crawl](https://github.com/firecrawl/cli) | Firecrawl | Vendor | 531 | 73.9K | 66.2 |
+| 3 | [just-scrape](https://github.com/scrapegraphai/just-scrape) | ScrapeGraphAI | Vendor | 37 | 244.9K | 59.8 |
+| 4 | [tavily-crawl](https://github.com/tavily-ai/skills) | Tavily | Vendor | 436 | 9.8K | 58.1 |
+| 5 | [scrape](https://github.com/brightdata/skills) | Bright Data | Vendor | 268 | 10.6K | 56.4 |
+| 6 | [firecrawl-build-*](https://github.com/firecrawl/skills) | Firecrawl | Vendor | 47 | 55.6K | 55.4 |
 | 7 | [web-scraping](https://github.com/jamditis/claude-skills-journalism) | @jamditis | Community | 334† | 5.5K | 49.3 |
 | 8 | [pp-scrape-creators](https://github.com/mvanhorn/printing-press-library) | @mvanhorn | Community | 1.8K† | 483 | 47.3 |
-| 9 | [xcrawl-scrape, xcrawl-crawl](https://github.com/xcrawl-api/xcrawl-skills) | XCrawl | Official | 451 | 441 | 47.0 |
+| 9 | [xcrawl-scrape, xcrawl-crawl](https://github.com/xcrawl-api/xcrawl-skills) | XCrawl | Vendor | 451 | 441 | 47.0 |
 | 10 | [web-scraping](https://github.com/mindrally/skills) | @mindrally | Community | 192† | 4.5K | 46.3 |
+
+### 🏢 From vendors
+
+| # | Skill | Publisher | ⭐ Stars | ⬇ Installs | Score |
+|---:|---|---|---:|---:|---:|
+| 1 | [firecrawl-scrape](https://github.com/firecrawl/cli) | Firecrawl | 531 | 75.6K | 66.3 |
+| 2 | [firecrawl-crawl](https://github.com/firecrawl/cli) | Firecrawl | 531 | 73.9K | 66.2 |
+| 3 | [just-scrape](https://github.com/scrapegraphai/just-scrape) | ScrapeGraphAI | 37 | 244.9K | 59.8 |
+| 4 | [tavily-crawl](https://github.com/tavily-ai/skills) | Tavily | 436 | 9.8K | 58.1 |
+| 5 | [scrape](https://github.com/brightdata/skills) | Bright Data | 268 | 10.6K | 56.4 |
+| 6 | [firecrawl-build-*](https://github.com/firecrawl/skills) | Firecrawl | 47 | 55.6K | 55.4 |
+| 7 | [xcrawl-scrape, xcrawl-crawl](https://github.com/xcrawl-api/xcrawl-skills) | XCrawl | 451 | 441 | 47.0 |
+| 8 | [apify-ultimate-scraper](https://github.com/apify/agent-skills) | Apify | 2.4K | – | 31.7 |
+| 9 | [apify-actor-development](https://github.com/apify/agent-skills) | Apify | 2.4K | – | 31.7 |
+| 10 | [apify-actorization](https://github.com/apify/agent-skills) | Apify | 2.4K | – | 31.7 |
+
+### 👥 Open source & community
+
+| # | Skill | Publisher | Type | ⭐ Stars | ⬇ Installs | Score |
+|---:|---|---|---|---:|---:|---:|
+| 1 | [web-scraping](https://github.com/jamditis/claude-skills-journalism) | @jamditis | Community | 334† | 5.5K | 49.3 |
+| 2 | [pp-scrape-creators](https://github.com/mvanhorn/printing-press-library) | @mvanhorn | Community | 1.8K† | 483 | 47.3 |
+| 3 | [web-scraping](https://github.com/mindrally/skills) | @mindrally | Community | 192† | 4.5K | 46.3 |
+| 4 | [scrapling-official](https://github.com/D4Vinci/Scrapling) | Scrapling | Open source | 63.7K | – | 45.0 |
+| 5 | [scrapy-web-scraping](https://github.com/mindrally/skills) | @mindrally | Community | 192† | 1.6K | 42.6 |
+| 6 | [xiaohongshu-crawler, douyin-works-crawler, gzh-search-crawler](https://github.com/redfox-data/redfox-community) | @redfox-data | Community | 268† | 695 | 40.9 |
+| 7 | [web-scraper](https://github.com/sickn33/agentic-awesome-skills) | @sickn33 | Community | 44K† | – | 37.9 |
+| 8 | [web-scraping-automation](https://github.com/aAAaqwq/AGI-Super-Team) | @aAAaqwq | Community | 121† | 583 | 37.1 |
+| 9 | [web-crawler](https://github.com/starchild-ai-agent/official-skills) | @starchild-ai-agent | Community | 18† | 3.6K | 36.6 |
+| 10 | [browserwing](https://github.com/browserwing/browserwing) | @browserwing | Community | 1.3K | – | 29.0 |
 
 <sub>† Stars belong to a multi-purpose collection repo, so they count for less in the score.</sub>
 
