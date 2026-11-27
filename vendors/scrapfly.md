@@ -7,11 +7,11 @@ Scraping API · [https://scrapfly.io](https://scrapfly.io)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [scrapfly-scraper](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) | Scraping APIs & Unblockers | 4 | – | 6.5 |
-| [scrapfly-extraction, scrapfly-crawler, scrapfly-browser and more](https://github.com/scrapfly/skills/tree/main/skills) | Crawling, Search & Extraction | 4 | – | 6.5 |
+| [scrapfly-scraper](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) | Scraping APIs & Unblockers | 5 | 348 | 35.2 |
+| [scrapfly-extraction, scrapfly-crawler, scrapfly-browser and more](https://github.com/scrapfly/skills/tree/main/skills) | Crawling, Search & Extraction | 5 | – | 16.9 |
 
-- [**scrapfly-scraper**](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) - Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.<br><sub>⭐ 4 · 🔑 API key · `Anti-bot` · `JS` · `Proxies`</sub>
-- [**scrapfly-extraction, scrapfly-crawler, scrapfly-browser and more**](https://github.com/scrapfly/skills/tree/main/skills) - LLM and template extraction, whole-site crawling, cloud Playwright browsers, plus CLI and TypeScript, Go and Rust SDK skills.<br><sub>⭐ 4 · 🔑 API key · `Crawl` · `JSON` · `Browser` · `SDK`</sub>
+- [**scrapfly-scraper**](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) - Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.<br><sub>⭐ 5 · ⬇ 348 · 🔑 API key · `Anti-bot` · `JS` · `Proxies`</sub>
+- [**scrapfly-extraction, scrapfly-crawler, scrapfly-browser and more**](https://github.com/scrapfly/skills/tree/main/skills) - LLM and template extraction, whole-site crawling, cloud Playwright browsers, plus CLI and TypeScript, Go and Rust SDK skills.<br><sub>⭐ 5 · 🔑 API key · `Crawl` · `JSON` · `Browser` · `SDK`</sub>
 
 <details><summary>Install</summary>
 

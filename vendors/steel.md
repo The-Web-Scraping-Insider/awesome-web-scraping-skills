@@ -7,9 +7,9 @@ Cloud browsers · [https://steel.dev](https://steel.dev)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [steel-browser, steel-developer and more](https://github.com/steel-dev/skills) | Browser Automation | – | – | 0.0 |
+| [steel-browser, steel-developer and more](https://github.com/steel-dev/skills) | Browser Automation | 5 | 900 | 38.1 |
 
-- [**steel-browser, steel-developer and more**](https://github.com/steel-dev/skills) - Live cloud browser sessions for scraping, clicking, filling forms, screenshots and PDFs, plus build and debugging skills.<br><sub>🔑 API key · `Browser` · `JS`</sub>
+- [**steel-browser, steel-developer and more**](https://github.com/steel-dev/skills) - Live cloud browser sessions for scraping, clicking, filling forms, screenshots and PDFs, plus build and debugging skills.<br><sub>⭐ 5 · ⬇ 900 · 🔑 API key · `Browser` · `JS`</sub>
 
 <details><summary>Install</summary>
 

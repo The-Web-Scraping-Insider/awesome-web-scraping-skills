@@ -7,9 +7,9 @@ Search & extraction API · [https://tavily.com](https://tavily.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [tavily-search](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) | Crawling, Search & Extraction | 436 | – | 24.7 |
+| [tavily-search](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) | Crawling, Search & Extraction | 497 | 40.7K | 66.9 |
 
-- [**tavily-search**](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) - Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.<br><sub>⭐ 436 · 🔑 API key · `Search` · `Crawl` · `Markdown`</sub>
+- [**tavily-search**](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) - Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.<br><sub>⭐ 497 · ⬇ 40.7K · 🔑 API key · `Search` · `Crawl` · `Markdown`</sub>
 
 <details><summary>Install</summary>
 

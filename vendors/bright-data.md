@@ -7,22 +7,22 @@ Proxies, unblocker & scraping APIs · [https://brightdata.com](https://brightdat
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [scrape](https://github.com/brightdata/skills/tree/main/skills/scrape) | Scraping APIs & Unblockers | 268 | 10.6K | 56.4 |
-| [fetch](https://github.com/brightdata/skills/tree/main/skills/fetch) | Scraping APIs & Unblockers | 268 | – | 22.8 |
-| [search](https://github.com/brightdata/skills/tree/main/skills/search) | Crawling, Search & Extraction | 268 | – | 22.8 |
-| [browser](https://github.com/brightdata/skills/tree/main/skills/browser) | Browser Automation | 268 | – | 22.8 |
+| [scrape](https://github.com/brightdata/skills/tree/main/skills/scrape) | Scraping APIs & Unblockers | 272 | 11.2K | 57.6 |
+| [search](https://github.com/brightdata/skills/tree/main/skills/search) | Crawling, Search & Extraction | 272 | 7.7K | 56.4 |
+| [fetch](https://github.com/brightdata/skills/tree/main/skills/fetch) | Scraping APIs & Unblockers | 272 | 263 | 45.8 |
+| [browser](https://github.com/brightdata/skills/tree/main/skills/browser) | Browser Automation | 272 | – | 28.3 |
 
-- [**scrape**](https://github.com/brightdata/skills/tree/main/skills/scrape) - Scrape structured records (profiles, products, reviews, listings) from any site through the Web Scraper API, including building new scrapers in Scraper Studio.<br><sub>⭐ 268 · ⬇ 10.6K · 🔑 API key · `JSON` · `Anti-bot` · `Crawl`</sub>
-- [**fetch**](https://github.com/brightdata/skills/tree/main/skills/fetch) - Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.<br><sub>⭐ 268 · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
-- [**search**](https://github.com/brightdata/skills/tree/main/skills/search) - Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.<br><sub>⭐ 268 · 🔑 API key · `Search` · `JSON`</sub>
-- [**browser**](https://github.com/brightdata/skills/tree/main/skills/browser) - Move Playwright, Puppeteer or Selenium scripts that get blocked locally onto Bright Data's cloud Browser API over CDP.<br><sub>⭐ 268 · 🔑 API key · `Browser` · `Anti-bot` · `Proxies`</sub>
+- [**scrape**](https://github.com/brightdata/skills/tree/main/skills/scrape) - Scrape structured records (profiles, products, reviews, listings) from any site through the Web Scraper API, including building new scrapers in Scraper Studio.<br><sub>⭐ 272 · ⬇ 11.2K · 🔑 API key · `JSON` · `Anti-bot` · `Crawl`</sub>
+- [**search**](https://github.com/brightdata/skills/tree/main/skills/search) - Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.<br><sub>⭐ 272 · ⬇ 7.7K · 🔑 API key · `Search` · `JSON`</sub>
+- [**fetch**](https://github.com/brightdata/skills/tree/main/skills/fetch) - Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.<br><sub>⭐ 272 · ⬇ 263 · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
+- [**browser**](https://github.com/brightdata/skills/tree/main/skills/browser) - Move Playwright, Puppeteer or Selenium scripts that get blocked locally onto Bright Data's cloud Browser API over CDP.<br><sub>⭐ 272 · 🔑 API key · `Browser` · `Anti-bot` · `Proxies`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
 npx skills add brightdata/skills --skill scrape
-npx skills add brightdata/skills --skill fetch
 npx skills add brightdata/skills --skill search
+npx skills add brightdata/skills --skill fetch
 npx skills add brightdata/skills --skill browser
 ```
 

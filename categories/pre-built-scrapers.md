@@ -7,8 +7,8 @@ Ready-made scrapers for popular sites (Amazon, LinkedIn, Google Maps, TikTok…)
 
 ## Official
 
-- [**apify-ultimate-scraper**](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) by [Apify](https://apify.com) - Pick from 130+ curated Actors for social, search, maps and travel sites, falling back to the 30,000+ Actors in the Apify Store.<br><sub>⭐ 2.4K · 🔑 API key · `JSON` · `Anti-bot`</sub>
-- [**apify-ecommerce, apify-lead-generation and more**](https://github.com/apify/awesome-skills/tree/main/skills) by [Apify](https://apify.com) - Use-case skills (e-commerce, lead generation, audience analysis, ads intelligence) built on Apify Actors.<br><sub>⭐ 239 · 🔑 API key · `JSON`</sub>
+- [**apify-ultimate-scraper**](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) by [Apify](https://apify.com) - Pick from 130+ curated Actors for social, search, maps and travel sites, falling back to the 30,000+ Actors in the Apify Store.<br><sub>⭐ 2.5K · ⬇ 17.2K · 🔑 API key · `JSON` · `Anti-bot`</sub>
+- [**apify-ecommerce, apify-lead-generation and more**](https://github.com/apify/awesome-skills/tree/main/skills) by [Apify](https://apify.com) - Use-case skills (e-commerce, lead generation, audience analysis, ads intelligence) built on Apify Actors.<br><sub>⭐ 305 · 🔑 API key · `JSON`</sub>
 
 <details><summary>Install</summary>
 

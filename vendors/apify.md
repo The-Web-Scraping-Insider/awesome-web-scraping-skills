@@ -7,15 +7,15 @@ Scraping platform & Actor marketplace · [https://apify.com](https://apify.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [apify-ultimate-scraper](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) | Pre-built Scrapers & Data Feeds | 2.4K | – | 31.7 |
-| [apify-actor-development](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) | Scraper Building & SDKs | 2.4K | – | 31.7 |
-| [apify-actorization](https://github.com/apify/agent-skills/tree/main/skills/apify-actorization) | Scraper Building & SDKs | 2.4K | – | 31.7 |
-| [apify-ecommerce, apify-lead-generation and more](https://github.com/apify/awesome-skills/tree/main/skills) | Pre-built Scrapers & Data Feeds | 239 | – | 22.3 |
+| [apify-ultimate-scraper](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) | Pre-built Scrapers & Data Feeds | 2.5K | 17.2K | 70.2 |
+| [apify-actor-development](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) | Scraper Building & SDKs | 2.5K | 11.1K | 68.9 |
+| [apify-actorization](https://github.com/apify/agent-skills/tree/main/skills/apify-actorization) | Scraper Building & SDKs | 2.5K | – | 39.6 |
+| [apify-ecommerce, apify-lead-generation and more](https://github.com/apify/awesome-skills/tree/main/skills) | Pre-built Scrapers & Data Feeds | 305 | – | 31.8 |
 
-- [**apify-ultimate-scraper**](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) - Pick from 130+ curated Actors for social, search, maps and travel sites, falling back to the 30,000+ Actors in the Apify Store.<br><sub>⭐ 2.4K · 🔑 API key · `JSON` · `Anti-bot`</sub>
-- [**apify-actor-development**](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) - Build, debug and deploy Apify Actors in JavaScript, TypeScript or Python, including input and output schemas.<br><sub>⭐ 2.4K · 🔑 API key · `SDK`</sub>
-- [**apify-actorization**](https://github.com/apify/agent-skills/tree/main/skills/apify-actorization) - Convert existing scraper code into an Apify Actor.<br><sub>⭐ 2.4K · 🔑 API key · `SDK`</sub>
-- [**apify-ecommerce, apify-lead-generation and more**](https://github.com/apify/awesome-skills/tree/main/skills) - Use-case skills (e-commerce, lead generation, audience analysis, ads intelligence) built on Apify Actors.<br><sub>⭐ 239 · 🔑 API key · `JSON`</sub>
+- [**apify-ultimate-scraper**](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) - Pick from 130+ curated Actors for social, search, maps and travel sites, falling back to the 30,000+ Actors in the Apify Store.<br><sub>⭐ 2.5K · ⬇ 17.2K · 🔑 API key · `JSON` · `Anti-bot`</sub>
+- [**apify-actor-development**](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) - Build, debug and deploy Apify Actors in JavaScript, TypeScript or Python, including input and output schemas.<br><sub>⭐ 2.5K · ⬇ 11.1K · 🔑 API key · `SDK`</sub>
+- [**apify-actorization**](https://github.com/apify/agent-skills/tree/main/skills/apify-actorization) - Convert existing scraper code into an Apify Actor.<br><sub>⭐ 2.5K · 🔑 API key · `SDK`</sub>
+- [**apify-ecommerce, apify-lead-generation and more**](https://github.com/apify/awesome-skills/tree/main/skills) - Use-case skills (e-commerce, lead generation, audience analysis, ads intelligence) built on Apify Actors.<br><sub>⭐ 305 · 🔑 API key · `JSON`</sub>
 
 <details><summary>Install</summary>
 

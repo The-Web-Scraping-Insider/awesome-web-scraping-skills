@@ -1,0 +1,255 @@
+{
+  "installs": {
+    "aaaaqwq-web-scraping-automation": 583,
+    "apify-actor-development": 11100,
+    "apify-ultimate-scraper": 17200,
+    "brightdata-fetch": 263,
+    "brightdata-scrape": 11200,
+    "brightdata-search": 7700,
+    "browserbase-skills": 6100,
+    "firecrawl-build": 63600,
+    "firecrawl-crawl": 81700,
+    "firecrawl-scrape": 84700,
+    "igosuki-web-scraper": 57,
+    "jamditis-web-scraping": 6300,
+    "microsoft-playwright-cli": 229800,
+    "mindrally-scrapy": 2100,
+    "mindrally-web-scraping": 4500,
+    "mvanhorn-scrape-creators": 576,
+    "redfox-china-social": 695,
+    "scrapegraphai-just-scrape": 245000,
+    "scraperapi-skills": 131,
+    "scrapfly-scraper": 348,
+    "scrapling-official": 7600,
+    "sickn33-web-scraper": 141,
+    "starchild-web-crawler": 4000,
+    "steel-skills": 900,
+    "tavily-crawl": 9800,
+    "tavily-search-extract": 40700,
+    "tdimino-scrapling": 75,
+    "vercel-agent-browser": 1700000,
+    "xcrawl-skills": 244
+  },
+  "repos": {
+    "ComposioHQ/awesome-claude-skills": {
+      "archived": false,
+      "pushed_at": "2026-09-18T07:16:11Z",
+      "stars": 80444
+    },
+    "D4Vinci/Scrapling": {
+      "archived": false,
+      "license": "BSD-3-Clause",
+      "pushed_at": "2026-11-26T00:10:49Z",
+      "stars": 106243
+    },
+    "DNYoussef/context-cascade": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-07-12T14:42:04Z",
+      "stars": 33
+    },
+    "PleasePrompto/google-ai-mode-skill": {
+      "archived": true,
+      "pushed_at": "2026-09-10T07:44:08Z",
+      "stars": 294
+    },
+    "ZenRows/cli": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-23T21:33:22Z",
+      "stars": 18
+    },
+    "aAAaqwq/AGI-Super-Team": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-26T14:54:22Z",
+      "stars": 121
+    },
+    "al1enjesus/human-browser": {
+      "stars": 19
+    },
+    "apify/agent-skills": {
+      "archived": false,
+      "pushed_at": "2026-11-23T14:41:42Z",
+      "stars": 2519
+    },
+    "apify/awesome-skills": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-24T18:29:13Z",
+      "stars": 305
+    },
+    "brettdavies/crawl4ai-skill": {
+      "archived": false,
+      "license": "NOASSERTION",
+      "pushed_at": "2026-10-05T03:56:44Z",
+      "stars": 51
+    },
+    "brightdata/skills": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-10-29T12:44:06Z",
+      "stars": 272
+    },
+    "browser-use/browser-use": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-27T11:32:09Z",
+      "stars": 122208
+    },
+    "browserbase/skills": {
+      "archived": false,
+      "pushed_at": "2026-11-17T01:20:31Z",
+      "stars": 3760
+    },
+    "browserwing/browserwing": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-08-08T05:47:13Z",
+      "stars": 1424
+    },
+    "firecrawl/cli": {
+      "archived": false,
+      "pushed_at": "2026-11-25T20:48:52Z",
+      "stars": 702
+    },
+    "firecrawl/skills": {
+      "archived": false,
+      "license": "ISC",
+      "pushed_at": "2026-11-11T21:43:22Z",
+      "stars": 179
+    },
+    "gooseworks-ai/goose-skills": {
+      "stars": 1069
+    },
+    "hasdata/agent-skills": {
+      "archived": false,
+      "pushed_at": "2026-05-13T07:29:26Z",
+      "stars": 15
+    },
+    "igosuki/claude-skills": {
+      "archived": false,
+      "pushed_at": "2025-10-21T13:17:26Z",
+      "stars": 1
+    },
+    "jamditis/claude-skills-journalism": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-25T21:24:35Z",
+      "stars": 463
+    },
+    "jmagly/ai-writing-guide": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-26T16:54:56Z",
+      "stars": 232
+    },
+    "lackeyjb/playwright-skill": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-01T07:36:27Z",
+      "stars": 3328
+    },
+    "liangdabiao/amazon-sorftime-research-MCP-skill": {
+      "stars": 215
+    },
+    "microsoft/playwright-cli": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-24T20:31:25Z",
+      "stars": 15503
+    },
+    "mindrally/skills": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-10-08T23:38:39Z",
+      "stars": 316
+    },
+    "mvanhorn/printing-press-library": {
+      "archived": false,
+      "pushed_at": "2026-11-27T09:55:33Z",
+      "stars": 2159
+    },
+    "oxylabs/agent-skills": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-27T10:12:55Z",
+      "stars": 868
+    },
+    "oxylabs/web-api-skills": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-27T10:36:58Z",
+      "stars": 15
+    },
+    "redfox-data/redfox-community": {
+      "archived": false,
+      "pushed_at": "2026-11-24T07:29:18Z",
+      "stars": 471
+    },
+    "scrapegraphai/just-scrape": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-09-21T20:15:12Z",
+      "stars": 76
+    },
+    "scraperapi/scraperapi-skills": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-25T09:56:42Z",
+      "stars": 10
+    },
+    "scrapfly/skills": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-26T18:25:18Z",
+      "stars": 5
+    },
+    "sickn33/agentic-awesome-skills": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-26T18:59:39Z",
+      "stars": 50440
+    },
+    "starchild-ai-agent/official-skills": {
+      "archived": false,
+      "pushed_at": "2026-11-26T14:01:47Z",
+      "stars": 34
+    },
+    "steel-dev/skills": {
+      "archived": false,
+      "pushed_at": "2026-11-25T16:59:43Z",
+      "stars": 5
+    },
+    "tavily-ai/skills": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-24T17:03:45Z",
+      "stars": 497
+    },
+    "tdimino/claude-code-minoan": {
+      "archived": false,
+      "license": "MIT",
+      "pushed_at": "2026-11-24T23:43:24Z",
+      "stars": 42
+    },
+    "vercel-labs/agent-browser": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-11-27T02:10:30Z",
+      "stars": 54274
+    },
+    "xcrawl-api/xcrawl-skills": {
+      "archived": false,
+      "pushed_at": "2026-03-20T08:47:16Z",
+      "stars": 446
+    },
+    "zytelabs/claude-webscraping-skills": {
+      "archived": false,
+      "license": "Apache-2.0",
+      "pushed_at": "2026-05-04T07:45:23Z",
+      "stars": 5
+    }
+  },
+  "updated": "2026-11-27"
+}

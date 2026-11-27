@@ -7,9 +7,9 @@ Open-source browser agent · [https://browser-use.com](https://browser-use.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [browser-use skills](https://docs.browser-use.com/open-source/examples/skills/overview) | Browser Automation | – | – | 0.0 |
+| [browser-use skills](https://docs.browser-use.com/open-source/examples/skills/overview) | Browser Automation | 122.2K | – | 55.0 |
 
-- [**browser-use skills**](https://docs.browser-use.com/open-source/examples/skills/overview) - Skill bundles that teach coding agents to use the Browser Use agent framework.<br><sub>🆓 Free · `Browser`</sub>
+- [**browser-use skills**](https://docs.browser-use.com/open-source/examples/skills/overview) - Skill bundles that teach coding agents to use the Browser Use agent framework.<br><sub>⭐ 122.2K · 🆓 Free · `Browser`</sub>
 
 <details><summary>Install</summary>
 

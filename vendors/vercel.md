@@ -7,9 +7,9 @@ Browser automation CLI · [https://github.com/vercel-labs/agent-browser](https:/
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [agent-browser](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) | Browser Automation | – | – | 0.0 |
+| [agent-browser](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) | Browser Automation | 54.3K | 1.7M | 96.9 |
 
-- [**agent-browser**](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) - Fast Rust CLI for browser automation over CDP, using accessibility-tree refs. Includes derive-client, which turns recorded traffic into an API client.<br><sub>🆓 Free · `Browser` · `JS`</sub>
+- [**agent-browser**](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) - Fast Rust CLI for browser automation over CDP, using accessibility-tree refs. Includes derive-client, which turns recorded traffic into an API client.<br><sub>⭐ 54.3K · ⬇ 1.7M · 🆓 Free · `Browser` · `JS`</sub>
 
 <details><summary>Install</summary>
 

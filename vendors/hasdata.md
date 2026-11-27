@@ -7,9 +7,9 @@ Scraping APIs · [https://hasdata.com](https://hasdata.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [hasdata agent-skills](https://hasdata.com/integrations/agent-skills) | Scraper Building & SDKs | – | – | 0.0 |
+| [hasdata agent-skills](https://hasdata.com/integrations/agent-skills) | Scraper Building & SDKs | 15 | – | 10.7 |
 
-- [**hasdata agent-skills**](https://hasdata.com/integrations/agent-skills) - Teach the agent to write scrapers on top of HasData's APIs, so the generated code stays in your project.<br><sub>🔑 API key · `SDK` · `Anti-bot`</sub>
+- [**hasdata agent-skills**](https://hasdata.com/integrations/agent-skills) - Teach the agent to write scrapers on top of HasData's APIs, so the generated code stays in your project.<br><sub>⭐ 15 · 🔑 API key · `SDK` · `Anti-bot`</sub>
 
 <details><summary>Install</summary>
 

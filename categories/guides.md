@@ -7,22 +7,22 @@ Community skills that teach scraping techniques and best practices.
 
 ## Community
 
-- [**web-scraping**](https://github.com/jamditis/claude-skills-journalism/tree/master/dev-toolkit/skills/web-scraping) by [@jamditis](https://github.com/jamditis) - Authorized scraping with fallback cascades for 403s, CAPTCHAs and blocks, plus social-media and yt-dlp extraction.<br><sub>⭐ 334† · ⬇ 5.5K · 🆓 Free · `JS`</sub>
-- [**web-scraping**](https://github.com/mindrally/skills/tree/main/web-scraping) by [@mindrally](https://github.com/mindrally) - A guide to Python scraping covering static, dynamic and large-scale extraction, with an ethics section.<br><sub>⭐ 192† · ⬇ 4.5K · 🆓 Free</sub>
-- [**scrapy-web-scraping**](https://github.com/mindrally/skills/tree/main/scrapy-web-scraping) by [@mindrally](https://github.com/mindrally) - Build Scrapy spiders, extraction logic and item pipelines.<br><sub>⭐ 192† · ⬇ 1.6K · 🆓 Free · `Crawl`</sub>
-- [**web-scraper**](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/web-scraper) by [@sickn33](https://github.com/sickn33) - Multi-strategy scraper for tables, lists and prices, with pagination, monitoring and CSV/JSON export (instructions in Portuguese).<br><sub>⭐ 44K† · 🆓 Free · `JSON`</sub>
+- [**web-scraper**](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/web-scraper) by [@sickn33](https://github.com/sickn33) - Multi-strategy scraper for tables, lists and prices, with pagination, monitoring and CSV/JSON export (instructions in Portuguese).<br><sub>⭐ 50.4K† · ⬇ 141 · 🆓 Free · `JSON`</sub>
+- [**web-scraping**](https://github.com/jamditis/claude-skills-journalism/tree/master/dev-toolkit/skills/web-scraping) by [@jamditis](https://github.com/jamditis) - Authorized scraping with fallback cascades for 403s, CAPTCHAs and blocks, plus social-media and yt-dlp extraction.<br><sub>⭐ 463† · ⬇ 6.3K · 🆓 Free · `JS`</sub>
+- [**web-scraping**](https://github.com/mindrally/skills/tree/main/web-scraping) by [@mindrally](https://github.com/mindrally) - A guide to Python scraping covering static, dynamic and large-scale extraction, with an ethics section.<br><sub>⭐ 316† · ⬇ 4.5K · 🆓 Free</sub>
+- [**scrapy-web-scraping**](https://github.com/mindrally/skills/tree/main/scrapy-web-scraping) by [@mindrally](https://github.com/mindrally) - Build Scrapy spiders, extraction logic and item pipelines.<br><sub>⭐ 316† · ⬇ 2.1K · 🆓 Free · `Crawl`</sub>
+- [**web-crawler**](https://github.com/starchild-ai-agent/official-skills/tree/main/web-crawler) by [@starchild-ai-agent](https://github.com/starchild-ai-agent) - Scrape web pages and social platforms (YouTube, TikTok, Instagram, LinkedIn, Chinese apps and Asian marketplaces) through Apify Actors, with a fallback for JavaScript-heavy pages.<br><sub>⭐ 34† · ⬇ 4K · 🔑 API key · `JS` · `JSON`</sub>
 - [**web-scraping-automation**](https://github.com/aAAaqwq/AGI-Super-Team/tree/main/skills/web-scraping-automation) by [@aAAaqwq](https://github.com/aAAaqwq) - Scrape websites and APIs and generate scraper scripts, covering anti-bot tactics and storage (instructions in Chinese).<br><sub>⭐ 121† · ⬇ 583 · 🆓 Free · `Anti-bot`</sub>
-- [**web-crawler**](https://github.com/starchild-ai-agent/official-skills/tree/main/web-crawler) by [@starchild-ai-agent](https://github.com/starchild-ai-agent) - Scrape web pages and social platforms (YouTube, TikTok, Instagram, LinkedIn, Chinese apps and Asian marketplaces) through Apify Actors, with a fallback for JavaScript-heavy pages.<br><sub>⭐ 18† · ⬇ 3.6K · 🔑 API key · `JS` · `JSON`</sub>
 
 <details><summary>Install</summary>
 
 ```bash
+npx skills add sickn33/agentic-awesome-skills --skill web-scraper
 npx skills add jamditis/claude-skills-journalism --skill web-scraping
 npx skills add mindrally/skills --skill web-scraping
 npx skills add mindrally/skills --skill scrapy-web-scraping
-npx skills add sickn33/agentic-awesome-skills --skill web-scraper
-npx skills add aaaaqwq/agi-super-team --skill web-scraping-automation
 npx skills add starchild-ai-agent/official-skills --skill web-crawler
+npx skills add aaaaqwq/agi-super-team --skill web-scraping-automation
 ```
 
 </details>

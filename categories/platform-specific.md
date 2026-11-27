@@ -7,9 +7,9 @@ Skills built for one platform or data source (social networks, e-commerce, SERPs
 
 ## Community
 
-- [**pp-scrape-creators**](https://github.com/mvanhorn/printing-press-library/tree/main/cli-skills/pp-scrape-creators) by [@mvanhorn](https://github.com/mvanhorn) - Query Scrape Creators endpoints across 28 social platforms, with a local store for cross-platform queries.<br><sub>⭐ 1.8K† · ⬇ 483 · 🔑 API key · `JSON`</sub>
-- [**xiaohongshu-crawler, douyin-works-crawler, wechat-channels-crawler**](https://github.com/redfox-data/redfox-community/tree/main/skills) by [@redfox-data](https://github.com/redfox-data) - Crawl Xiaohongshu, Douyin and WeChat Channels content through the credit-based Redfox API (instructions in Chinese).<br><sub>⭐ 268† · ⬇ 695 · 🔑 API key · `JSON`</sub>
-- [**google-ai-mode-skill**](https://github.com/PleasePrompto/google-ai-mode-skill) by [@PleasePrompto](https://github.com/PleasePrompto) - Query Google AI Mode through a stealth browser and return the answer as markdown with source citations.<br><sub>⭐ 149 · 🆓 Free · `Search` · `Browser`</sub>
+- [**pp-scrape-creators**](https://github.com/mvanhorn/printing-press-library/tree/main/cli-skills/pp-scrape-creators) by [@mvanhorn](https://github.com/mvanhorn) - Query Scrape Creators endpoints across 28 social platforms, with a local store for cross-platform queries.<br><sub>⭐ 2.2K† · ⬇ 576 · 🔑 API key · `JSON`</sub>
+- [**xiaohongshu-crawler, douyin-works-crawler, wechat-channels-crawler**](https://github.com/redfox-data/redfox-community/tree/main/skills) by [@redfox-data](https://github.com/redfox-data) - Crawl Xiaohongshu, Douyin and WeChat Channels content through the credit-based Redfox API (instructions in Chinese).<br><sub>⭐ 471† · ⬇ 695 · 🔑 API key · `JSON`</sub>
+- [**google-ai-mode-skill**](https://github.com/PleasePrompto/google-ai-mode-skill) by [@PleasePrompto](https://github.com/PleasePrompto) - Query Google AI Mode through a stealth browser and return the answer as markdown with source citations.<br><sub>⭐ 294 · 🆓 Free · `Search` · `Browser`</sub>
 
 <details><summary>Install</summary>
 
