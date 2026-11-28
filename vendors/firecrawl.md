@@ -7,9 +7,9 @@ Scraping & crawling API · [https://firecrawl.dev](https://firecrawl.dev)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [firecrawl-scrape](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) | Scraping APIs & Unblockers | 702 | 84.7K | 70.7 |
-| [firecrawl-crawl](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) | Crawling, Search & Extraction | 702 | 81.7K | 70.6 |
-| [firecrawl-build-*](https://github.com/firecrawl/skills/tree/main/skills/build) | Scraper Building & SDKs | 179 | 63.6K | 63.0 |
+| [firecrawl-scrape](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) | Scraping APIs & Unblockers | 702 | 84.7K | 70.6 |
+| [firecrawl-crawl](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) | Crawling, Search & Extraction | 702 | 81.7K | 70.4 |
+| [firecrawl-build-*](https://github.com/firecrawl/skills/tree/main/skills/build) | Scraper Building & SDKs | 179 | 63.6K | 62.9 |
 
 - [**firecrawl-scrape**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 702 · ⬇ 84.7K · 🔑 API key · `JS` · `Markdown`</sub>
 - [**firecrawl-crawl**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 702 · ⬇ 81.7K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>

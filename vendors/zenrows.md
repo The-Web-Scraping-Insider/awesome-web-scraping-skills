@@ -7,7 +7,7 @@ Scraping API · [https://www.zenrows.com](https://www.zenrows.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [zenrows, protected-fetch, extract, interact-browser, cost-control](https://www.zenrows.com/agents/skills) | Scraping APIs & Unblockers | 18 | – | 21.0 |
+| [zenrows, protected-fetch, extract, interact-browser, cost-control](https://www.zenrows.com/agents/skills) | Scraping APIs & Unblockers | 18 | – | 20.9 |
 
 - [**zenrows, protected-fetch, extract, interact-browser, cost-control**](https://www.zenrows.com/agents/skills) - A decision tree for picking the cheapest reliable method, anti-bot fetching, extraction to JSON or markdown, gated browser sessions and cost guardrails.<br><sub>⭐ 18 · 🔑 API key · `Anti-bot` · `JS` · `JSON` · `Browser`</sub>
 

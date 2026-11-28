@@ -1,0 +1,72 @@
+# Single source of truth for The Web Scraping Insider org: shared README footer,
+# "listed in" badges and repo metadata (description, topics, homepage).
+#
+# Canonical copy: The-Web-Scraping-Insider/.github -> shared/org.yml
+# Every other repo keeps a synced copy at shared/org.yml. Their scheduled jobs
+# refresh it with `python scripts/org_footer.py sync` before rendering, so edit
+# THIS file in the .github repo, never the copies.
+#
+# To show a repo in the footer of every other repo, set `footer: true`.
+
+org:
+  name: The Web Scraping Insider
+  url: https://github.com/The-Web-Scraping-Insider
+
+links:
+  newsletter: https://thewebscrapinginsider.beehiiv.com
+  subreddit: https://www.reddit.com/r/WebScrapingInsider/
+  hub: https://scrapeops.io/web-scraping-insider/
+  scrapeops: https://scrapeops.io/
+
+# Applied to every repo by scripts/set_repo_metadata.sh
+homepage: https://scrapeops.io/web-scraping-insider/
+common_topics: [web-scraping, web-scraping-insider, scrapeops]
+
+repos:
+  - name: awesome-web-scraping-skills
+    title: Awesome Web Scraping Skills
+    blurb: Agent Skills that teach AI agents to scrape, ranked daily
+    footer: true
+    badge: true
+    description: >-
+      A curated, auto-ranked list of Agent Skills that teach Claude Code, Cursor, Codex
+      and other AI agents to scrape the web. Stats refreshed daily.
+    topics: [awesome-list, agent-skills, ai-agents, claude, claude-code]
+
+  - name: awesome-web-scraping-mcp-servers
+    title: Awesome Web Scraping MCP Servers
+    blurb: MCP servers for fetching pages, driving browsers and extracting data, ranked daily
+    footer: true
+    badge: true
+    description: >-
+      A curated, auto-ranked list of MCP servers that let Claude and other AI agents
+      scrape the web: fetching pages, driving browsers, using proxies and extracting data.
+    topics: [awesome-list, mcp, mcp-servers, ai-agents, claude]
+
+  - name: awesome-scraping-tools
+    title: Awesome Scraping Tools
+    blurb: Free open-source add-ons and utilities that sit around your scraper
+    # Still being populated: flip to true when it's ready to promote.
+    footer: false
+    badge: true
+    description: >-
+      Free, open-source add-ons and utilities for web scrapers: anti-bot recon, TLS
+      impersonation, challenge solvers, API discovery, cleaning and monitoring.
+    topics: [awesome-list, anti-bot, browser-fingerprinting, scraping-tools, proxies]
+
+  - name: web-scraping-expert-amas
+    title: Web Scraping Expert AMAs
+    blurb: Transcripts and a Q&A dataset from our expert AMAs on r/WebScrapingInsider
+    footer: true
+    badge: false
+    description: >-
+      Cleaned transcripts and a structured Q&A dataset from the expert AMAs on
+      r/WebScrapingInsider: proxy providers, anti-bot engineers, AI-agent builders and more.
+    topics: [ama, dataset, proxies, anti-bot, llms-txt]
+
+  - name: .github
+    title: Org profile
+    footer: false
+    badge: false
+    description: Profile README and shared config for The Web Scraping Insider GitHub org.
+    topics: []

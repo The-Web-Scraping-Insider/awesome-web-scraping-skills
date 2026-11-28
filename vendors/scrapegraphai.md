@@ -7,7 +7,7 @@ AI scraping API · [https://scrapegraphai.com](https://scrapegraphai.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [just-scrape](https://github.com/scrapegraphai/just-scrape/tree/main/skills/just-scrape) | Scraping APIs & Unblockers | 76 | 245K | 58.3 |
+| [just-scrape](https://github.com/scrapegraphai/just-scrape/tree/main/skills/just-scrape) | Scraping APIs & Unblockers | 76 | 245K | 58.2 |
 
 - [**just-scrape**](https://github.com/scrapegraphai/just-scrape/tree/main/skills/just-scrape) - Search, scrape, crawl, extract structured data and monitor pages through the ScrapeGraph AI CLI.<br><sub>⭐ 76 · ⬇ 245K · 🔑 API key · `Anti-bot` · `JS` · `Crawl` · `JSON` · `Search`</sub>
 
