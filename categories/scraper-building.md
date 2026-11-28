@@ -8,7 +8,7 @@ Skills that help the agent write, deploy and maintain scraper code.
 ## Official
 
 - [**apify-actor-development**](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) by [Apify](https://apify.com) - Build, debug and deploy Apify Actors in JavaScript, TypeScript or Python, including input and output schemas.<br><sub>⭐ 2.5K · ⬇ 11.1K · 🔑 API key · `SDK`</sub>
-- [**firecrawl-build-***](https://github.com/firecrawl/skills/tree/main/skills/build) by [Firecrawl](https://firecrawl.dev) - Integrate Firecrawl's scrape, crawl and interact endpoints into application code, plus end-to-end workflow recipes.<br><sub>⭐ 179 · ⬇ 63.6K · 🔑 API key · `SDK` · `JS`</sub>
+- [**firecrawl-build-***](https://github.com/firecrawl/skills/tree/main/skills/build) by [Firecrawl](https://firecrawl.dev) - Integrate Firecrawl's scrape, crawl and interact endpoints into application code, plus end-to-end workflow recipes.<br><sub>⭐ 181 · ⬇ 63.6K · 🔑 API key · `SDK` · `JS`</sub>
 - [**apify-actorization**](https://github.com/apify/agent-skills/tree/main/skills/apify-actorization) by [Apify](https://apify.com) - Convert existing scraper code into an Apify Actor.<br><sub>⭐ 2.5K · 🔑 API key · `SDK`</sub>
 - [**hasdata agent-skills**](https://hasdata.com/integrations/agent-skills) by [HasData](https://hasdata.com) - Teach the agent to write scrapers on top of HasData's APIs, so the generated code stays in your project.<br><sub>⭐ 15 · 🔑 API key · `SDK` · `Anti-bot`</sub>
 

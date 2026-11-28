@@ -3,44 +3,44 @@
     "aaaaqwq-web-scraping-automation": 583,
     "apify-actor-development": 11100,
     "apify-ultimate-scraper": 17200,
-    "brightdata-fetch": 263,
+    "brightdata-fetch": 274,
     "brightdata-scrape": 11200,
-    "brightdata-search": 7700,
+    "brightdata-search": 7800,
     "browserbase-skills": 6100,
     "firecrawl-build": 63600,
     "firecrawl-crawl": 81700,
-    "firecrawl-scrape": 84700,
+    "firecrawl-scrape": 84800,
     "igosuki-web-scraper": 57,
     "jamditis-web-scraping": 6300,
-    "microsoft-playwright-cli": 229800,
+    "microsoft-playwright-cli": 230900,
     "mindrally-scrapy": 2100,
     "mindrally-web-scraping": 4500,
     "mvanhorn-scrape-creators": 576,
     "redfox-china-social": 695,
     "scrapegraphai-just-scrape": 245000,
     "scraperapi-skills": 131,
-    "scrapfly-scraper": 348,
-    "scrapling-official": 7600,
+    "scrapfly-scraper": 351,
+    "scrapling-official": 7700,
     "sickn33-web-scraper": 141,
     "starchild-web-crawler": 4000,
-    "steel-skills": 900,
+    "steel-skills": 903,
     "tavily-crawl": 9800,
-    "tavily-search-extract": 40700,
+    "tavily-search-extract": 40800,
     "tdimino-scrapling": 75,
-    "vercel-agent-browser": 1700000,
+    "vercel-agent-browser": 1800000,
     "xcrawl-skills": 244
   },
   "repos": {
     "ComposioHQ/awesome-claude-skills": {
       "archived": false,
       "pushed_at": "2026-09-18T07:16:11Z",
-      "stars": 80444
+      "stars": 80497
     },
     "D4Vinci/Scrapling": {
       "archived": false,
       "license": "BSD-3-Clause",
-      "pushed_at": "2026-11-26T00:10:49Z",
-      "stars": 106243
+      "pushed_at": "2026-11-28T00:24:39Z",
+      "stars": 106686
     },
     "DNYoussef/context-cascade": {
       "archived": false,
@@ -71,7 +71,7 @@
     "apify/agent-skills": {
       "archived": false,
       "pushed_at": "2026-11-23T14:41:42Z",
-      "stars": 2519
+      "stars": 2523
     },
     "apify/awesome-skills": {
       "archived": false,
@@ -94,13 +94,13 @@
     "browser-use/browser-use": {
       "archived": false,
       "license": "MIT",
-      "pushed_at": "2026-11-27T11:32:09Z",
-      "stars": 122208
+      "pushed_at": "2026-11-28T04:47:43Z",
+      "stars": 122266
     },
     "browserbase/skills": {
       "archived": false,
       "pushed_at": "2026-11-17T01:20:31Z",
-      "stars": 3760
+      "stars": 3761
     },
     "browserwing/browserwing": {
       "archived": false,
@@ -111,13 +111,13 @@
     "firecrawl/cli": {
       "archived": false,
       "pushed_at": "2026-11-25T20:48:52Z",
-      "stars": 702
+      "stars": 703
     },
     "firecrawl/skills": {
       "archived": false,
       "license": "ISC",
       "pushed_at": "2026-11-11T21:43:22Z",
-      "stars": 179
+      "stars": 181
     },
     "gooseworks-ai/goose-skills": {
       "stars": 1069
@@ -141,14 +141,14 @@
     "jmagly/ai-writing-guide": {
       "archived": false,
       "license": "MIT",
-      "pushed_at": "2026-11-26T16:54:56Z",
+      "pushed_at": "2026-11-28T02:16:06Z",
       "stars": 232
     },
     "lackeyjb/playwright-skill": {
       "archived": false,
       "license": "MIT",
       "pushed_at": "2026-11-01T07:36:27Z",
-      "stars": 3328
+      "stars": 3330
     },
     "liangdabiao/amazon-sorftime-research-MCP-skill": {
       "stars": 215
@@ -157,24 +157,24 @@
       "archived": false,
       "license": "Apache-2.0",
       "pushed_at": "2026-11-24T20:31:25Z",
-      "stars": 15503
+      "stars": 15516
     },
     "mindrally/skills": {
       "archived": false,
       "license": "Apache-2.0",
       "pushed_at": "2026-10-08T23:38:39Z",
-      "stars": 316
+      "stars": 319
     },
     "mvanhorn/printing-press-library": {
       "archived": false,
-      "pushed_at": "2026-11-27T09:55:33Z",
-      "stars": 2159
+      "pushed_at": "2026-11-28T09:49:32Z",
+      "stars": 2160
     },
     "oxylabs/agent-skills": {
       "archived": false,
       "license": "MIT",
       "pushed_at": "2026-11-27T10:12:55Z",
-      "stars": 868
+      "stars": 866
     },
     "oxylabs/web-api-skills": {
       "archived": false,
@@ -208,8 +208,8 @@
     "sickn33/agentic-awesome-skills": {
       "archived": false,
       "license": "MIT",
-      "pushed_at": "2026-11-26T18:59:39Z",
-      "stars": 50440
+      "pushed_at": "2026-11-28T11:26:08Z",
+      "stars": 50478
     },
     "starchild-ai-agent/official-skills": {
       "archived": false,
@@ -237,12 +237,12 @@
       "archived": false,
       "license": "Apache-2.0",
       "pushed_at": "2026-11-27T02:10:30Z",
-      "stars": 54274
+      "stars": 54410
     },
     "xcrawl-api/xcrawl-skills": {
       "archived": false,
       "pushed_at": "2026-03-20T08:47:16Z",
-      "stars": 446
+      "stars": 445
     },
     "zytelabs/claude-webscraping-skills": {
       "archived": false,
@@ -251,5 +251,5 @@
       "stars": 5
     }
   },
-  "updated": "2026-11-27"
+  "updated": "2026-11-28"
 }

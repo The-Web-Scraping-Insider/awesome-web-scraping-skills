@@ -7,8 +7,8 @@ Scraping platform & Actor marketplace · [https://apify.com](https://apify.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [apify-ultimate-scraper](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) | Pre-built Scrapers & Data Feeds | 2.5K | 17.2K | 70.2 |
-| [apify-actor-development](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) | Scraper Building & SDKs | 2.5K | 11.1K | 68.9 |
+| [apify-ultimate-scraper](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) | Pre-built Scrapers & Data Feeds | 2.5K | 17.2K | 70.1 |
+| [apify-actor-development](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) | Scraper Building & SDKs | 2.5K | 11.1K | 68.8 |
 | [apify-actorization](https://github.com/apify/agent-skills/tree/main/skills/apify-actorization) | Scraper Building & SDKs | 2.5K | – | 39.6 |
 | [apify-ecommerce, apify-lead-generation and more](https://github.com/apify/awesome-skills/tree/main/skills) | Pre-built Scrapers & Data Feeds | 305 | – | 31.7 |
 

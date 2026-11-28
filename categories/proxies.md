@@ -7,7 +7,7 @@ Configure proxy pools, geo-targeting and rotation correctly.
 
 ## Official
 
-- [**proxies, web-unblocker, web-scraper-api, agent-browser and more**](https://github.com/oxylabs/agent-skills/tree/main/skills) by [Oxylabs](https://oxylabs.io) - Generate correct proxy connection strings and geo-targeting, use Web Unblocker and the Web Scraper API, and drive remote browsers over CDP.<br><sub>⭐ 868 · 🔑 API key · `Proxies` · `Anti-bot` · `Browser`</sub>
+- [**proxies, web-unblocker, web-scraper-api, agent-browser and more**](https://github.com/oxylabs/agent-skills/tree/main/skills) by [Oxylabs](https://oxylabs.io) - Generate correct proxy connection strings and geo-targeting, use Web Unblocker and the Web Scraper API, and drive remote browsers over CDP.<br><sub>⭐ 866 · 🔑 API key · `Proxies` · `Anti-bot` · `Browser`</sub>
 
 <details><summary>Install</summary>
 

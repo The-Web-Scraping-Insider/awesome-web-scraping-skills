@@ -7,12 +7,12 @@ Hosted APIs that fetch pages for you and deal with blocks, CAPTCHAs and JavaScri
 
 ## Official
 
-- [**firecrawl-scrape**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) by [Firecrawl](https://firecrawl.dev) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 702 · ⬇ 84.7K · 🔑 API key · `JS` · `Markdown`</sub>
+- [**firecrawl-scrape**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) by [Firecrawl](https://firecrawl.dev) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 703 · ⬇ 84.8K · 🔑 API key · `JS` · `Markdown`</sub>
 - [**just-scrape**](https://github.com/scrapegraphai/just-scrape/tree/main/skills/just-scrape) by [ScrapeGraphAI](https://scrapegraphai.com) - Search, scrape, crawl, extract structured data and monitor pages through the ScrapeGraph AI CLI.<br><sub>⭐ 76 · ⬇ 245K · 🔑 API key · `Anti-bot` · `JS` · `Crawl` · `JSON` · `Search`</sub>
 - [**scrape**](https://github.com/brightdata/skills/tree/main/skills/scrape) by [Bright Data](https://brightdata.com) - Scrape structured records (profiles, products, reviews, listings) from any site through the Web Scraper API, including building new scrapers in Scraper Studio.<br><sub>⭐ 272 · ⬇ 11.2K · 🔑 API key · `JSON` · `Anti-bot` · `Crawl`</sub>
-- [**fetch**](https://github.com/brightdata/skills/tree/main/skills/fetch) by [Bright Data](https://brightdata.com) - Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.<br><sub>⭐ 272 · ⬇ 263 · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
-- [**xcrawl-scrape, xcrawl-crawl**](https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills) by [XCrawl](https://github.com/xcrawl-api) - Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.<br><sub>⭐ 446 · ⬇ 244 · 🔑 API key · `Crawl` · `JSON`</sub>
-- [**scrapfly-scraper**](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) by [Scrapfly](https://scrapfly.io) - Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.<br><sub>⭐ 5 · ⬇ 348 · 🔑 API key · `Anti-bot` · `JS` · `Proxies`</sub>
+- [**fetch**](https://github.com/brightdata/skills/tree/main/skills/fetch) by [Bright Data](https://brightdata.com) - Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.<br><sub>⭐ 272 · ⬇ 274 · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
+- [**xcrawl-scrape, xcrawl-crawl**](https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills) by [XCrawl](https://github.com/xcrawl-api) - Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.<br><sub>⭐ 445 · ⬇ 244 · 🔑 API key · `Crawl` · `JSON`</sub>
+- [**scrapfly-scraper**](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) by [Scrapfly](https://scrapfly.io) - Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.<br><sub>⭐ 5 · ⬇ 351 · 🔑 API key · `Anti-bot` · `JS` · `Proxies`</sub>
 - [**scraperapi-* (18 skills)**](https://github.com/scraperapi/scraperapi-skills/tree/main/plugin/skills) by [ScraperAPI](https://www.scraperapi.com) - Claude Code plugin with 18 skills and a hosted MCP server, covering onboarding, SDKs, crawling, scraper building, SERP data and price monitoring.<br><sub>⭐ 10 · ⬇ 131 · 🔑 API key · `Anti-bot` · `Crawl` · `Search` · `SDK`</sub>
 - [**zenrows, protected-fetch, extract, interact-browser, cost-control**](https://www.zenrows.com/agents/skills) by [ZenRows](https://www.zenrows.com) - A decision tree for picking the cheapest reliable method, anti-bot fetching, extraction to JSON or markdown, gated browser sessions and cost guardrails.<br><sub>⭐ 18 · 🔑 API key · `Anti-bot` · `JS` · `JSON` · `Browser`</sub>
 - [**Web Scraper API skills**](https://github.com/oxylabs/web-api-skills/tree/main/skills) by [Oxylabs](https://oxylabs.io) - Skills for the Oxylabs Web Scraper API, wired to its MCP server when installed as a Claude Code plugin.<br><sub>⭐ 15 · 🔑 API key · `Anti-bot` · `JSON`</sub>
@@ -41,7 +41,7 @@ see https://docs.olostep.com/integrations/clawhub
 
 ## Community
 
-- [**firecrawl-automation, scrapingbee-automation, zenrows-automation**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills) by [@ComposioHQ](https://github.com/ComposioHQ) - Thin wrappers that call scraping APIs through Composio's Rube MCP server.<br><sub>⭐ 80.4K† · 🔑 API key · `Anti-bot`</sub>
+- [**firecrawl-automation, scrapingbee-automation, zenrows-automation**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills) by [@ComposioHQ](https://github.com/ComposioHQ) - Thin wrappers that call scraping APIs through Composio's Rube MCP server.<br><sub>⭐ 80.5K† · 🔑 API key · `Anti-bot`</sub>
 
 <details><summary>Install</summary>
 

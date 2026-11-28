@@ -7,9 +7,9 @@ Crawl whole sites, search the web and turn pages into clean markdown or JSON.
 
 ## Official
 
-- [**firecrawl-crawl**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) by [Firecrawl](https://firecrawl.dev) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 702 · ⬇ 81.7K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>
-- [**tavily-search**](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) by [Tavily](https://tavily.com) - Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.<br><sub>⭐ 497 · ⬇ 40.7K · 🔑 API key · `Search` · `Crawl` · `Markdown`</sub>
-- [**search**](https://github.com/brightdata/skills/tree/main/skills/search) by [Bright Data](https://brightdata.com) - Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.<br><sub>⭐ 272 · ⬇ 7.7K · 🔑 API key · `Search` · `JSON`</sub>
+- [**firecrawl-crawl**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) by [Firecrawl](https://firecrawl.dev) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 703 · ⬇ 81.7K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>
+- [**tavily-search**](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) by [Tavily](https://tavily.com) - Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.<br><sub>⭐ 497 · ⬇ 40.8K · 🔑 API key · `Search` · `Crawl` · `Markdown`</sub>
+- [**search**](https://github.com/brightdata/skills/tree/main/skills/search) by [Bright Data](https://brightdata.com) - Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.<br><sub>⭐ 272 · ⬇ 7.8K · 🔑 API key · `Search` · `JSON`</sub>
 - [**scrapfly-extraction, scrapfly-crawler, scrapfly-browser and more**](https://github.com/scrapfly/skills/tree/main/skills) by [Scrapfly](https://scrapfly.io) - LLM and template extraction, whole-site crawling, cloud Playwright browsers, plus CLI and TypeScript, Go and Rust SDK skills.<br><sub>⭐ 5 · 🔑 API key · `Crawl` · `JSON` · `Browser` · `SDK`</sub>
 
 <details><summary>Install</summary>

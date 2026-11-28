@@ -7,9 +7,9 @@ Open-source scraping library · [https://github.com/D4Vinci/Scrapling](https://g
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [scrapling-official](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) | Open-Source Libraries | 106.2K | 7.6K | 82.3 |
+| [scrapling-official](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) | Open-Source Libraries | 106.7K | 7.7K | 82.4 |
 
-- [**scrapling-official**](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) - Adaptive scraping framework with stealth fetching, Cloudflare Turnstile handling, spiders and CLI extraction.<br><sub>⭐ 106.2K · ⬇ 7.6K · 🆓 Free · `Anti-bot` · `JS` · `Crawl`</sub>
+- [**scrapling-official**](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) - Adaptive scraping framework with stealth fetching, Cloudflare Turnstile handling, spiders and CLI extraction.<br><sub>⭐ 106.7K · ⬇ 7.7K · 🆓 Free · `Anti-bot` · `JS` · `Crawl`</sub>
 
 <details><summary>Install</summary>
 

@@ -5,7 +5,7 @@
 
 **A curated, auto-ranked list of [Agent Skills](https://agentskills.io) that teach Claude Code, Cursor, Codex and other AI agents to scrape the web.**
 
-![Skills](https://img.shields.io/badge/skills-48-2563eb) ![Vendors](https://img.shields.io/badge/official%20vendors-21-16a34a) ![Free](https://img.shields.io/badge/free%20%2F%20open%20source-17-f59e0b) ![Updated](https://img.shields.io/badge/updated-2026--11--27-6b7280) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills/blob/main/CONTRIBUTING.md)
+![Skills](https://img.shields.io/badge/skills-48-2563eb) ![Vendors](https://img.shields.io/badge/official%20vendors-21-16a34a) ![Free](https://img.shields.io/badge/free%20%2F%20open%20source-17-f59e0b) ![Updated](https://img.shields.io/badge/updated-2026--11--28-6b7280) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills/blob/main/CONTRIBUTING.md)
 
 <sub>Stats refreshed daily · Ranked by GitHub stars + installs · Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a></sub>
 
@@ -42,16 +42,16 @@ Ranked by score (stars, installs and recent activity; see [how the ranking works
 
 | # | Skill | Publisher | Type | ⭐ Stars | ⬇ Installs | Score |
 |---:|---|---|---|---:|---:|---:|
-| 1 | [agent-browser](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) | Vercel Labs | Official | 54.3K | 1.7M | 96.8 |
-| 2 | [playwright-cli](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) | Microsoft | Official | 15.5K | 229.8K | 85.5 |
-| 3 | [scrapling-official](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) | Scrapling | Official | 106.2K | 7.6K | 82.3 |
-| 4 | [firecrawl-scrape](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) | Firecrawl | Official | 702 | 84.7K | 70.6 |
-| 5 | [firecrawl-crawl](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) | Firecrawl | Official | 702 | 81.7K | 70.4 |
-| 6 | [apify-ultimate-scraper](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) | Apify | Official | 2.5K | 17.2K | 70.2 |
-| 7 | [apify-actor-development](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) | Apify | Official | 2.5K | 11.1K | 68.9 |
-| 8 | [browser, fetch, functions and more](https://github.com/browserbase/skills/tree/main/skills) | Browserbase | Official | 3.8K | 6.1K | 67.7 |
-| 9 | [tavily-search](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) | Tavily | Official | 497 | 40.7K | 66.8 |
-| 10 | [firecrawl-build-*](https://github.com/firecrawl/skills/tree/main/skills/build) | Firecrawl | Official | 179 | 63.6K | 62.9 |
+| 1 | [agent-browser](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) | Vercel Labs | Official | 54.4K | 1.8M | 96.8 |
+| 2 | [playwright-cli](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) | Microsoft | Official | 15.5K | 230.9K | 85.3 |
+| 3 | [scrapling-official](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) | Scrapling | Official | 106.7K | 7.7K | 82.4 |
+| 4 | [firecrawl-scrape](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) | Firecrawl | Official | 703 | 84.8K | 70.4 |
+| 5 | [firecrawl-crawl](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) | Firecrawl | Official | 703 | 81.7K | 70.3 |
+| 6 | [apify-ultimate-scraper](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) | Apify | Official | 2.5K | 17.2K | 70.1 |
+| 7 | [apify-actor-development](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) | Apify | Official | 2.5K | 11.1K | 68.8 |
+| 8 | [browser, fetch, functions and more](https://github.com/browserbase/skills/tree/main/skills) | Browserbase | Official | 3.8K | 6.1K | 67.6 |
+| 9 | [tavily-search](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) | Tavily | Official | 497 | 40.8K | 66.7 |
+| 10 | [firecrawl-build-*](https://github.com/firecrawl/skills/tree/main/skills/build) | Firecrawl | Official | 181 | 63.6K | 62.8 |
 
 <sub>† Stars belong to a multi-purpose collection repo, so they count for less in the score.</sub>
 
@@ -76,7 +76,7 @@ Skills published by the company or project behind the tool. Vendors are ordered 
 
 <sub>Browser automation CLI · [github.com/vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) · [all Vercel Labs skills](vendors/vercel.md)</sub>
 
-- [**agent-browser**](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) - Fast Rust CLI for browser automation over CDP, using accessibility-tree refs. Includes derive-client, which turns recorded traffic into an API client.<br><sub>⭐ 54.3K · ⬇ 1.7M · 🆓 Free · `Browser` · `JS`</sub>
+- [**agent-browser**](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) - Fast Rust CLI for browser automation over CDP, using accessibility-tree refs. Includes derive-client, which turns recorded traffic into an API client.<br><sub>⭐ 54.4K · ⬇ 1.8M · 🆓 Free · `Browser` · `JS`</sub>
 
 <details><summary>Install</summary>
 
@@ -90,7 +90,7 @@ npx skills add vercel-labs/agent-browser
 
 <sub>Browser automation framework · [playwright.dev](https://playwright.dev) · [all Microsoft skills](vendors/microsoft.md)</sub>
 
-- [**playwright-cli**](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) - Drive a browser with Playwright CLI commands for navigation, forms, screenshots and data extraction.<br><sub>⭐ 15.5K · ⬇ 229.8K · 🆓 Free · `Browser` · `JS`</sub>
+- [**playwright-cli**](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) - Drive a browser with Playwright CLI commands for navigation, forms, screenshots and data extraction.<br><sub>⭐ 15.5K · ⬇ 230.9K · 🆓 Free · `Browser` · `JS`</sub>
 
 <details><summary>Install</summary>
 
@@ -104,7 +104,7 @@ npx skills add microsoft/playwright-cli --skill playwright-cli
 
 <sub>Open-source scraping library · [github.com/D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) · [all Scrapling skills](vendors/scrapling.md)</sub>
 
-- [**scrapling-official**](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) - Adaptive scraping framework with stealth fetching, Cloudflare Turnstile handling, spiders and CLI extraction.<br><sub>⭐ 106.2K · ⬇ 7.6K · 🆓 Free · `Anti-bot` · `JS` · `Crawl`</sub>
+- [**scrapling-official**](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) - Adaptive scraping framework with stealth fetching, Cloudflare Turnstile handling, spiders and CLI extraction.<br><sub>⭐ 106.7K · ⬇ 7.7K · 🆓 Free · `Anti-bot` · `JS` · `Crawl`</sub>
 
 <details><summary>Install</summary>
 
@@ -118,9 +118,9 @@ npx skills add d4vinci/scrapling --skill scrapling-official
 
 <sub>Scraping & crawling API · [firecrawl.dev](https://firecrawl.dev) · [all Firecrawl skills](vendors/firecrawl.md)</sub>
 
-- [**firecrawl-scrape**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 702 · ⬇ 84.7K · 🔑 API key · `JS` · `Markdown`</sub>
-- [**firecrawl-crawl**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 702 · ⬇ 81.7K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>
-- [**firecrawl-build-***](https://github.com/firecrawl/skills/tree/main/skills/build) - Integrate Firecrawl's scrape, crawl and interact endpoints into application code, plus end-to-end workflow recipes.<br><sub>⭐ 179 · ⬇ 63.6K · 🔑 API key · `SDK` · `JS`</sub>
+- [**firecrawl-scrape**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) - Turn any URL, including JavaScript-rendered pages, into clean markdown.<br><sub>⭐ 703 · ⬇ 84.8K · 🔑 API key · `JS` · `Markdown`</sub>
+- [**firecrawl-crawl**](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) - Bulk-extract content from a whole website or one section of it.<br><sub>⭐ 703 · ⬇ 81.7K · 🔑 API key · `Crawl` · `JS` · `Markdown`</sub>
+- [**firecrawl-build-***](https://github.com/firecrawl/skills/tree/main/skills/build) - Integrate Firecrawl's scrape, crawl and interact endpoints into application code, plus end-to-end workflow recipes.<br><sub>⭐ 181 · ⬇ 63.6K · 🔑 API key · `SDK` · `JS`</sub>
 
 <details><summary>Install</summary>
 
@@ -169,7 +169,7 @@ npx skills add browserbase/skills
 
 <sub>Search & extraction API · [tavily.com](https://tavily.com) · [all Tavily skills](vendors/tavily.md)</sub>
 
-- [**tavily-search**](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) - Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.<br><sub>⭐ 497 · ⬇ 40.7K · 🔑 API key · `Search` · `Crawl` · `Markdown`</sub>
+- [**tavily-search**](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) - Web search, URL extraction, site mapping and whole-site crawling through the Tavily CLI.<br><sub>⭐ 497 · ⬇ 40.8K · 🔑 API key · `Search` · `Crawl` · `Markdown`</sub>
 
 <details><summary>Install</summary>
 
@@ -198,8 +198,8 @@ npx skills add scrapegraphai/just-scrape
 <sub>Proxies, unblocker & scraping APIs · [brightdata.com](https://brightdata.com) · [all Bright Data skills](vendors/bright-data.md)</sub>
 
 - [**scrape**](https://github.com/brightdata/skills/tree/main/skills/scrape) - Scrape structured records (profiles, products, reviews, listings) from any site through the Web Scraper API, including building new scrapers in Scraper Studio.<br><sub>⭐ 272 · ⬇ 11.2K · 🔑 API key · `JSON` · `Anti-bot` · `Crawl`</sub>
-- [**search**](https://github.com/brightdata/skills/tree/main/skills/search) - Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.<br><sub>⭐ 272 · ⬇ 7.7K · 🔑 API key · `Search` · `JSON`</sub>
-- [**fetch**](https://github.com/brightdata/skills/tree/main/skills/fetch) - Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.<br><sub>⭐ 272 · ⬇ 263 · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
+- [**search**](https://github.com/brightdata/skills/tree/main/skills/search) - Get structured results from Google, Bing, Yandex and other search engines, including AI Mode and news, shopping and maps results, via the SERP API.<br><sub>⭐ 272 · ⬇ 7.8K · 🔑 API key · `Search` · `JSON`</sub>
+- [**fetch**](https://github.com/brightdata/skills/tree/main/skills/fetch) - Fetch one URL as markdown, HTML or a screenshot through Web Unlocker, including pages that answer a plain request with a 403, CAPTCHA or empty body.<br><sub>⭐ 272 · ⬇ 274 · 🔑 API key · `Anti-bot` · `JS` · `Markdown`</sub>
 - [**browser**](https://github.com/brightdata/skills/tree/main/skills/browser) - Move Playwright, Puppeteer or Selenium scripts that get blocked locally onto Bright Data's cloud Browser API over CDP.<br><sub>⭐ 272 · 🔑 API key · `Browser` · `Anti-bot` · `Proxies`</sub>
 
 <details><summary>Install</summary>
@@ -217,7 +217,7 @@ npx skills add brightdata/skills --skill browser
 
 <sub>Open-source browser agent · [browser-use.com](https://browser-use.com) · [all Browser Use skills](vendors/browser-use.md)</sub>
 
-- [**browser-use skills**](https://docs.browser-use.com/open-source/examples/skills/overview) - Skill bundles that teach coding agents to use the Browser Use agent framework.<br><sub>⭐ 122.2K · 🆓 Free · `Browser`</sub>
+- [**browser-use skills**](https://docs.browser-use.com/open-source/examples/skills/overview) - Skill bundles that teach coding agents to use the Browser Use agent framework.<br><sub>⭐ 122.3K · 🆓 Free · `Browser`</sub>
 
 <details><summary>Install</summary>
 
@@ -231,7 +231,7 @@ npx skills add https://github.com/browser-use/browser-use
 
 <sub>Scraping & crawling API · [github.com/xcrawl-api](https://github.com/xcrawl-api) · [all XCrawl skills](vendors/xcrawl.md)</sub>
 
-- [**xcrawl-scrape, xcrawl-crawl**](https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills) - Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.<br><sub>⭐ 446 · ⬇ 244 · 🔑 API key · `Crawl` · `JSON`</sub>
+- [**xcrawl-scrape, xcrawl-crawl**](https://github.com/xcrawl-api/xcrawl-skills/tree/main/skills) - Fetch single URLs with JSON extraction, or crawl whole sites with asynchronous status polling.<br><sub>⭐ 445 · ⬇ 244 · 🔑 API key · `Crawl` · `JSON`</sub>
 
 <details><summary>Install</summary>
 
@@ -245,7 +245,7 @@ npx skills add xcrawl-api/xcrawl-skills
 
 <sub>Cloud browsers · [steel.dev](https://steel.dev) · [all Steel skills](vendors/steel.md)</sub>
 
-- [**steel-browser, steel-developer and more**](https://github.com/steel-dev/skills) - Live cloud browser sessions for scraping, clicking, filling forms, screenshots and PDFs, plus build and debugging skills.<br><sub>⭐ 5 · ⬇ 900 · 🔑 API key · `Browser` · `JS`</sub>
+- [**steel-browser, steel-developer and more**](https://github.com/steel-dev/skills) - Live cloud browser sessions for scraping, clicking, filling forms, screenshots and PDFs, plus build and debugging skills.<br><sub>⭐ 5 · ⬇ 903 · 🔑 API key · `Browser` · `JS`</sub>
 
 <details><summary>Install</summary>
 
@@ -259,7 +259,7 @@ npx skills add steel-dev/skills
 
 <sub>Proxies, unblocker & scraping APIs · [oxylabs.io](https://oxylabs.io) · [all Oxylabs skills](vendors/oxylabs.md)</sub>
 
-- [**proxies, web-unblocker, web-scraper-api, agent-browser and more**](https://github.com/oxylabs/agent-skills/tree/main/skills) - Generate correct proxy connection strings and geo-targeting, use Web Unblocker and the Web Scraper API, and drive remote browsers over CDP.<br><sub>⭐ 868 · 🔑 API key · `Proxies` · `Anti-bot` · `Browser`</sub>
+- [**proxies, web-unblocker, web-scraper-api, agent-browser and more**](https://github.com/oxylabs/agent-skills/tree/main/skills) - Generate correct proxy connection strings and geo-targeting, use Web Unblocker and the Web Scraper API, and drive remote browsers over CDP.<br><sub>⭐ 866 · 🔑 API key · `Proxies` · `Anti-bot` · `Browser`</sub>
 - [**Web Scraper API skills**](https://github.com/oxylabs/web-api-skills/tree/main/skills) - Skills for the Oxylabs Web Scraper API, wired to its MCP server when installed as a Claude Code plugin.<br><sub>⭐ 15 · 🔑 API key · `Anti-bot` · `JSON`</sub>
 
 <details><summary>Install</summary>
@@ -275,7 +275,7 @@ npx skills add oxylabs/web-api-skills
 
 <sub>Scraping API · [scrapfly.io](https://scrapfly.io) · [all Scrapfly skills](vendors/scrapfly.md)</sub>
 
-- [**scrapfly-scraper**](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) - Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.<br><sub>⭐ 5 · ⬇ 348 · 🔑 API key · `Anti-bot` · `JS` · `Proxies`</sub>
+- [**scrapfly-scraper**](https://github.com/scrapfly/skills/tree/main/skills/scrapfly-scraper) - Scrape pages through the Scrapfly Python SDK with proxy rotation, anti-bot bypass and JS rendering.<br><sub>⭐ 5 · ⬇ 351 · 🔑 API key · `Anti-bot` · `JS` · `Proxies`</sub>
 - [**scrapfly-extraction, scrapfly-crawler, scrapfly-browser and more**](https://github.com/scrapfly/skills/tree/main/skills) - LLM and template extraction, whole-site crawling, cloud Playwright browsers, plus CLI and TypeScript, Go and Rust SDK skills.<br><sub>⭐ 5 · 🔑 API key · `Crawl` · `JSON` · `Browser` · `SDK`</sub>
 
 <details><summary>Install</summary>
@@ -391,7 +391,7 @@ Skills written by independent developers, grouped by category and ordered by sco
 
 ### 🛡️ Scraping APIs & Unblockers
 
-- [**firecrawl-automation, scrapingbee-automation, zenrows-automation**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills) by [@ComposioHQ](https://github.com/ComposioHQ) - Thin wrappers that call scraping APIs through Composio's Rube MCP server.<br><sub>⭐ 80.4K† · 🔑 API key · `Anti-bot`</sub>
+- [**firecrawl-automation, scrapingbee-automation, zenrows-automation**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills) by [@ComposioHQ](https://github.com/ComposioHQ) - Thin wrappers that call scraping APIs through Composio's Rube MCP server.<br><sub>⭐ 80.5K† · 🔑 API key · `Anti-bot`</sub>
 
 ### 🌐 Browser Automation
 
@@ -411,10 +411,10 @@ Skills written by independent developers, grouped by category and ordered by sco
 
 ### 📚 General Scraping Guides
 
-- [**web-scraper**](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/web-scraper) by [@sickn33](https://github.com/sickn33) - Multi-strategy scraper for tables, lists and prices, with pagination, monitoring and CSV/JSON export (instructions in Portuguese).<br><sub>⭐ 50.4K† · ⬇ 141 · 🆓 Free · `JSON`</sub>
+- [**web-scraper**](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/web-scraper) by [@sickn33](https://github.com/sickn33) - Multi-strategy scraper for tables, lists and prices, with pagination, monitoring and CSV/JSON export (instructions in Portuguese).<br><sub>⭐ 50.5K† · ⬇ 141 · 🆓 Free · `JSON`</sub>
 - [**web-scraping**](https://github.com/jamditis/claude-skills-journalism/tree/master/dev-toolkit/skills/web-scraping) by [@jamditis](https://github.com/jamditis) - Authorized scraping with fallback cascades for 403s, CAPTCHAs and blocks, plus social-media and yt-dlp extraction.<br><sub>⭐ 463† · ⬇ 6.3K · 🆓 Free · `JS`</sub>
-- [**web-scraping**](https://github.com/mindrally/skills/tree/main/web-scraping) by [@mindrally](https://github.com/mindrally) - A guide to Python scraping covering static, dynamic and large-scale extraction, with an ethics section.<br><sub>⭐ 316† · ⬇ 4.5K · 🆓 Free</sub>
-- [**scrapy-web-scraping**](https://github.com/mindrally/skills/tree/main/scrapy-web-scraping) by [@mindrally](https://github.com/mindrally) - Build Scrapy spiders, extraction logic and item pipelines.<br><sub>⭐ 316† · ⬇ 2.1K · 🆓 Free · `Crawl`</sub>
+- [**web-scraping**](https://github.com/mindrally/skills/tree/main/web-scraping) by [@mindrally](https://github.com/mindrally) - A guide to Python scraping covering static, dynamic and large-scale extraction, with an ethics section.<br><sub>⭐ 319† · ⬇ 4.5K · 🆓 Free</sub>
+- [**scrapy-web-scraping**](https://github.com/mindrally/skills/tree/main/scrapy-web-scraping) by [@mindrally](https://github.com/mindrally) - Build Scrapy spiders, extraction logic and item pipelines.<br><sub>⭐ 319† · ⬇ 2.1K · 🆓 Free · `Crawl`</sub>
 - [**web-crawler**](https://github.com/starchild-ai-agent/official-skills/tree/main/web-crawler) by [@starchild-ai-agent](https://github.com/starchild-ai-agent) - Scrape web pages and social platforms (YouTube, TikTok, Instagram, LinkedIn, Chinese apps and Asian marketplaces) through Apify Actors, with a fallback for JavaScript-heavy pages.<br><sub>⭐ 34† · ⬇ 4K · 🔑 API key · `JS` · `JSON`</sub>
 - [**web-scraping-automation**](https://github.com/aAAaqwq/AGI-Super-Team/tree/main/skills/web-scraping-automation) by [@aAAaqwq](https://github.com/aAAaqwq) - Scrape websites and APIs and generate scraper scripts, covering anti-bot tactics and storage (instructions in Chinese).<br><sub>⭐ 121† · ⬇ 583 · 🆓 Free · `Anti-bot`</sub>
 
@@ -533,7 +533,7 @@ If your project is on this list, show it off in your README:
 
 Each skill gets a score from 0 to 100: **45% GitHub stars** (log-scaled), **45% installs** from skills.sh (log-scaled) and **10% recent activity** (commits in the last 90 days). Stars of multi-purpose collection repos count for a quarter. Inclusion is editorial; ranking is automatic and identical for every vendor. Full details: [METHODOLOGY.md](METHODOLOGY.md).
 
-<div align="center"><sub>Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Supported by <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-skills&utm_medium=github">ScrapeOps</a> · Stats last refreshed 2026-11-27</sub></div>
+<div align="center"><sub>Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Supported by <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-skills&utm_medium=github">ScrapeOps</a> · Stats last refreshed 2026-11-28</sub></div>
 
 <!-- ORG-FOOTER:START - generated from shared/org.yml (canonical copy in The-Web-Scraping-Insider/.github); don't edit here -->
 

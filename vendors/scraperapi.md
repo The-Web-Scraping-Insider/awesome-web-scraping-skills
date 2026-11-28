@@ -7,7 +7,7 @@ Scraping API · [https://www.scraperapi.com](https://www.scraperapi.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [scraperapi-* (18 skills)](https://github.com/scraperapi/scraperapi-skills/tree/main/plugin/skills) | Scraping APIs & Unblockers | 10 | 131 | 34.3 |
+| [scraperapi-* (18 skills)](https://github.com/scraperapi/scraperapi-skills/tree/main/plugin/skills) | Scraping APIs & Unblockers | 10 | 131 | 34.1 |
 
 - [**scraperapi-* (18 skills)**](https://github.com/scraperapi/scraperapi-skills/tree/main/plugin/skills) - Claude Code plugin with 18 skills and a hosted MCP server, covering onboarding, SDKs, crawling, scraper building, SERP data and price monitoring.<br><sub>⭐ 10 · ⬇ 131 · 🔑 API key · `Anti-bot` · `Crawl` · `Search` · `SDK`</sub>
 

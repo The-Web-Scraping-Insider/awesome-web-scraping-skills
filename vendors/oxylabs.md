@@ -7,10 +7,10 @@ Proxies, unblocker & scraping APIs · [https://oxylabs.io](https://oxylabs.io)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [proxies, web-unblocker, web-scraper-api, agent-browser and more](https://github.com/oxylabs/agent-skills/tree/main/skills) | Proxies | 868 | – | 36.0 |
-| [Web Scraper API skills](https://github.com/oxylabs/web-api-skills/tree/main/skills) | Scraping APIs & Unblockers | 15 | – | 20.7 |
+| [proxies, web-unblocker, web-scraper-api, agent-browser and more](https://github.com/oxylabs/agent-skills/tree/main/skills) | Proxies | 866 | – | 35.9 |
+| [Web Scraper API skills](https://github.com/oxylabs/web-api-skills/tree/main/skills) | Scraping APIs & Unblockers | 15 | – | 20.5 |
 
-- [**proxies, web-unblocker, web-scraper-api, agent-browser and more**](https://github.com/oxylabs/agent-skills/tree/main/skills) - Generate correct proxy connection strings and geo-targeting, use Web Unblocker and the Web Scraper API, and drive remote browsers over CDP.<br><sub>⭐ 868 · 🔑 API key · `Proxies` · `Anti-bot` · `Browser`</sub>
+- [**proxies, web-unblocker, web-scraper-api, agent-browser and more**](https://github.com/oxylabs/agent-skills/tree/main/skills) - Generate correct proxy connection strings and geo-targeting, use Web Unblocker and the Web Scraper API, and drive remote browsers over CDP.<br><sub>⭐ 866 · 🔑 API key · `Proxies` · `Anti-bot` · `Browser`</sub>
 - [**Web Scraper API skills**](https://github.com/oxylabs/web-api-skills/tree/main/skills) - Skills for the Oxylabs Web Scraper API, wired to its MCP server when installed as a Claude Code plugin.<br><sub>⭐ 15 · 🔑 API key · `Anti-bot` · `JSON`</sub>
 
 <details><summary>Install</summary>

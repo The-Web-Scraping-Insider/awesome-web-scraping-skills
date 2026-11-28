@@ -7,7 +7,7 @@ Cloud browsers · [https://www.browserbase.com](https://www.browserbase.com)
 
 | Skill | Category | ⭐ Stars | ⬇ Installs | Score |
 |---|---|---:|---:|---:|
-| [browser, fetch, functions and more](https://github.com/browserbase/skills/tree/main/skills) | Browser Automation | 3.8K | 6.1K | 67.7 |
+| [browser, fetch, functions and more](https://github.com/browserbase/skills/tree/main/skills) | Browser Automation | 3.8K | 6.1K | 67.6 |
 
 - [**browser, fetch, functions and more**](https://github.com/browserbase/skills/tree/main/skills) - Automate cloud browsers with the browse CLI, fetch pages through the Fetch API, and deploy browser automations as serverless functions.<br><sub>⭐ 3.8K · ⬇ 6.1K · 🔑 API key · `Browser` · `JS` · `Anti-bot`</sub>
 
