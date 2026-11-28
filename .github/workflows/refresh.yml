@@ -8,6 +8,7 @@ on:
     paths:
       - "data/*.yaml"
       - "scripts/**"
+      - "shared/**"
   workflow_dispatch:
 
 permissions:
@@ -29,6 +30,10 @@ jobs:
           cache: pip
 
       - run: pip install -r requirements.txt
+
+      - name: Sync shared org footer from the .github repo
+        # Keeps shared/org.yml in step with the canonical copy; never fails the job.
+        run: python scripts/org_footer.py sync
 
       - name: Validate data
         run: python scripts/validate.py

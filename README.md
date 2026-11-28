@@ -22,6 +22,7 @@
 - [Browse by category](#browse-by-category)
 - [Related lists and directories](#related-lists-and-directories)
 - [Contributing](#contributing)
+- [Are you listed? Add the badge](#are-you-listed-add-the-badge)
 - [How the ranking works](#how-the-ranking-works)
 
 ## What are agent skills?
@@ -41,16 +42,16 @@ Ranked by score (stars, installs and recent activity; see [how the ranking works
 
 | # | Skill | Publisher | Type | ⭐ Stars | ⬇ Installs | Score |
 |---:|---|---|---|---:|---:|---:|
-| 1 | [agent-browser](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) | Vercel Labs | Official | 54.3K | 1.7M | 96.9 |
-| 2 | [playwright-cli](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) | Microsoft | Official | 15.5K | 229.8K | 85.6 |
-| 3 | [scrapling-official](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) | Scrapling | Official | 106.2K | 7.6K | 82.4 |
-| 4 | [firecrawl-scrape](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) | Firecrawl | Official | 702 | 84.7K | 70.7 |
-| 5 | [firecrawl-crawl](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) | Firecrawl | Official | 702 | 81.7K | 70.6 |
+| 1 | [agent-browser](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) | Vercel Labs | Official | 54.3K | 1.7M | 96.8 |
+| 2 | [playwright-cli](https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli) | Microsoft | Official | 15.5K | 229.8K | 85.5 |
+| 3 | [scrapling-official](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill/Scrapling-Skill) | Scrapling | Official | 106.2K | 7.6K | 82.3 |
+| 4 | [firecrawl-scrape](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-scrape) | Firecrawl | Official | 702 | 84.7K | 70.6 |
+| 5 | [firecrawl-crawl](https://github.com/firecrawl/cli/tree/main/skills/firecrawl-crawl) | Firecrawl | Official | 702 | 81.7K | 70.4 |
 | 6 | [apify-ultimate-scraper](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper) | Apify | Official | 2.5K | 17.2K | 70.2 |
 | 7 | [apify-actor-development](https://github.com/apify/agent-skills/tree/main/skills/apify-actor-development) | Apify | Official | 2.5K | 11.1K | 68.9 |
-| 8 | [browser, fetch, functions and more](https://github.com/browserbase/skills/tree/main/skills) | Browserbase | Official | 3.8K | 6.1K | 67.9 |
-| 9 | [tavily-search](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) | Tavily | Official | 497 | 40.7K | 66.9 |
-| 10 | [firecrawl-build-*](https://github.com/firecrawl/skills/tree/main/skills/build) | Firecrawl | Official | 179 | 63.6K | 63.0 |
+| 8 | [browser, fetch, functions and more](https://github.com/browserbase/skills/tree/main/skills) | Browserbase | Official | 3.8K | 6.1K | 67.7 |
+| 9 | [tavily-search](https://github.com/tavily-ai/skills/tree/main/skills/core/tavily-search) | Tavily | Official | 497 | 40.7K | 66.8 |
+| 10 | [firecrawl-build-*](https://github.com/firecrawl/skills/tree/main/skills/build) | Firecrawl | Official | 179 | 63.6K | 62.9 |
 
 <sub>† Stars belong to a multi-purpose collection repo, so they count for less in the score.</sub>
 
@@ -508,18 +509,49 @@ What each skill can do, as described in its `SKILL.md` or the vendor's docs.
 
 Know a scraping skill that's missing? [Submit it with the form](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills/issues/new?template=submit-skill.yml) or open a PR that edits [`data/skills.yaml`](data/skills.yaml). Don't edit this README; it's generated. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**Are you listed?** Add the badge to your repo:
+## Are you listed? Add the badge
 
-[![Featured in Awesome Web Scraping Skills](assets/badges/featured.svg)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills)
+If your project is on this list, show it off in your README:
+
+[![Listed in Awesome Web Scraping Skills](https://img.shields.io/badge/listed%20in-Awesome%20Web%20Scraping%20Skills-2F64F7?labelColor=111A2D)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills)
+
+**Markdown**
 
 ```markdown
-[![Featured in Awesome Web Scraping Skills](https://raw.githubusercontent.com/The-Web-Scraping-Insider/awesome-web-scraping-skills/main/assets/badges/featured.svg)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills)
+[![Listed in Awesome Web Scraping Skills](https://img.shields.io/badge/listed%20in-Awesome%20Web%20Scraping%20Skills-2F64F7?labelColor=111A2D)](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills)
 ```
+
+**HTML**
+
+```html
+<a href="https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills"><img src="https://img.shields.io/badge/listed%20in-Awesome%20Web%20Scraping%20Skills-2F64F7?labelColor=111A2D" alt="Listed in Awesome Web Scraping Skills"></a>
+```
+
+<sub>Prefer a bigger badge? Add <code>&amp;style=for-the-badge</code> to the image URL.</sub>
 
 ## How the ranking works
 
 Each skill gets a score from 0 to 100: **45% GitHub stars** (log-scaled), **45% installs** from skills.sh (log-scaled) and **10% recent activity** (commits in the last 90 days). Stars of multi-purpose collection repos count for a quarter. Inclusion is editorial; ranking is automatic and identical for every vendor. Full details: [METHODOLOGY.md](METHODOLOGY.md).
 
+<div align="center"><sub>Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Supported by <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-skills&utm_medium=github">ScrapeOps</a> · Stats last refreshed 2026-11-27</sub></div>
+
+<!-- ORG-FOOTER:START - generated from shared/org.yml (canonical copy in The-Web-Scraping-Insider/.github); don't edit here -->
+
 ---
 
-<div align="center"><sub>Curated by <a href="https://www.reddit.com/r/WebScrapingInsider/">The Web Scraping Insider</a> · Supported by <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-skills&utm_medium=github">ScrapeOps</a> · Stats last refreshed 2026-11-27</sub></div>
+<div align="center">
+
+### More from [The Web Scraping Insider](https://github.com/The-Web-Scraping-Insider)
+
+| Project | What it is |
+|---|---|
+| [**Awesome Web Scraping MCP Servers**](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers) | MCP servers for fetching pages, driving browsers and extracting data, ranked daily |
+| [**Web Scraping Expert AMAs**](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas) | Transcripts and a Q&A dataset from our expert AMAs on r/WebScrapingInsider |
+
+📬 [Newsletter](https://thewebscrapinginsider.beehiiv.com?utm_source=awesome-web-scraping-skills&utm_medium=github&utm_campaign=org-footer) · 💬 [r/WebScrapingInsider](https://www.reddit.com/r/WebScrapingInsider/) · 🧭 [Hub](https://scrapeops.io/web-scraping-insider/?utm_source=awesome-web-scraping-skills&utm_medium=github&utm_campaign=org-footer) · 🐙 [All our repos](https://github.com/The-Web-Scraping-Insider)
+
+<sub>Built and maintained by the team at <a href="https://scrapeops.io/?utm_source=awesome-web-scraping-skills&utm_medium=github&utm_campaign=org-footer">ScrapeOps</a>.</sub>
+
+</div>
+
+<!-- ORG-FOOTER:END -->

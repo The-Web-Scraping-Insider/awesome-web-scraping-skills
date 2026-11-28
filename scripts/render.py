@@ -10,8 +10,10 @@ from collections import defaultdict
 from datetime import date
 
 from common import ROOT, fmt_num, load_all, skill_url
+from org_footer import badge_section_md, footer_md, load_org
 
-REPO = "The-Web-Scraping-Insider/awesome-web-scraping-skills"
+REPO_NAME = "awesome-web-scraping-skills"
+REPO = f"The-Web-Scraping-Insider/{REPO_NAME}"
 REPO_URL = f"https://github.com/{REPO}"
 SUBREDDIT = "https://www.reddit.com/r/WebScrapingInsider/"
 SCRAPEOPS = "https://scrapeops.io/?utm_source=awesome-web-scraping-skills&utm_medium=github"
@@ -102,7 +104,7 @@ def render_readme(skills, vendors, categories, caps, picks, stats):
     toc = [
         "What are agent skills?", "Top 10", "Quick picks", "Official vendor skills",
         "Community skills", "Capability matrix", "Browse by category",
-        "Related lists and directories", "Contributing", "How the ranking works",
+        "Related lists and directories", "Contributing", "Are you listed? Add the badge", "How the ranking works",
     ]
     for t in toc:
         w(f"- [{t}](#{anchor(t)})")
@@ -194,11 +196,8 @@ def render_readme(skills, vendors, categories, caps, picks, stats):
     w(f"Know a scraping skill that's missing? [Submit it with the form]({REPO_URL}/issues/new?template=submit-skill.yml) "
       f"or open a PR that edits [`data/skills.yaml`](data/skills.yaml). Don't edit this README; it's generated. "
       f"See [CONTRIBUTING.md](CONTRIBUTING.md).\n")
-    w("**Are you listed?** Add the badge to your repo:\n")
-    w(f"[![Featured in Awesome Web Scraping Skills](assets/badges/featured.svg)]({REPO_URL})\n")
-    w("```markdown\n"
-      f"[![Featured in Awesome Web Scraping Skills](https://raw.githubusercontent.com/{REPO}/main/assets/badges/featured.svg)]({REPO_URL})\n"
-      "```\n")
+    org = load_org()
+    w(badge_section_md(org, REPO_NAME))
 
     w("## How the ranking works\n")
     w("Each skill gets a score from 0 to 100: **45% GitHub stars** (log-scaled), **45% installs** from skills.sh "
@@ -206,9 +205,9 @@ def render_readme(skills, vendors, categories, caps, picks, stats):
       "Inclusion is editorial; ranking is automatic and identical for every vendor. "
       "Full details: [METHODOLOGY.md](METHODOLOGY.md).\n")
 
-    w("---\n")
     w(f'<div align="center"><sub>Curated by <a href="{SUBREDDIT}">The Web Scraping Insider</a> · '
-      f'Supported by <a href="{SCRAPEOPS}">ScrapeOps</a> · Stats last refreshed {updated}</sub></div>')
+      f'Supported by <a href="{SCRAPEOPS}">ScrapeOps</a> · Stats last refreshed {updated}</sub></div>\n')
+    w(footer_md(org, REPO_NAME))
     return "\n".join(L) + "\n"
 
 
